@@ -11,6 +11,9 @@
   year: 2026
   journal: "Nature Aging (forthcoming)"
   doi: ""
+  media:
+    - label: "SBE Blog"
+      url: "https://www.maastrichtuniversity.nl/news/why-more-we-tackle-ageing-more-it-matters"
   tags:
     - "ageing"
     - "longevity"
@@ -28,6 +31,13 @@
   year: 2026
   journal: "The Economic Journal"
   doi: "10.1093/ej/ueag005"
+  media:
+    - label: "VoxDev"
+      url: "https://voxdev.org/topic/methods-measurement/qualitative-interviews-scale-new-method-application-aspirations"
+    - label: "World Bank Blog"
+      url: "https://blogs.worldbank.org/en/impactevaluations/qualitative-analysis-representative-samples"
+    - label: "iQual Package"
+      url: "https://github.com/worldbank/iQual"
   tags:
     - "nlp"
     - "development"
@@ -64,6 +74,9 @@
   year: 2025
   journal: "Sociological Methods and Research"
   doi: "10.1177/00491241251338246"
+  media:
+    - label: "EADi Podcast"
+      url: "https://www.eadi.org/news-2/new-innovating-methods-podcast-out-2"
   tags:
     - "nlp"
     - "llm"
@@ -75,6 +88,9 @@
   year: 2025
   journal: "Journal of the Royal Statistical Society: Series A"
   doi: "10.1093/jrsssa/qnaf026"
+  media:
+    - label: "VoxTalks"
+      url: "https://cepr.org/multimedia/economic-consequences-living-longer"
   tags:
     - "ageing"
     - "longevity"

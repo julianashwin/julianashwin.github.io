@@ -14,8 +14,6 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: grants.qmd
-        text: Grants
     right:
       - icon: github
         href: https://github.com/julianashwin

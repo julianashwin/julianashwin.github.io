@@ -24,6 +24,8 @@ if profile.get('github'):
     links_html += f'<a href="https://github.com/{profile["github"]}">GitHub</a> &nbsp;'
 if profile.get('orcid'):
     links_html += f'<a href="https://orcid.org/{profile["orcid"]}">ORCID</a>'
+if profile.get('cv_pdf'):
+    links_html += f' &nbsp;<a href="{profile["cv_pdf"]}">CV (PDF)</a>'
 
 import os
 photo_path = 'assets/photo.jpg'

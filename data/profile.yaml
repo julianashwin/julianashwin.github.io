@@ -14,6 +14,7 @@ linkedin: "https://www.linkedin.com/in/julian-ashwin-81411083/"
 google_scholar: "https://scholar.google.co.uk/citations?user=-p7wgEUAAAAJ&hl=en"       # paste the full URL
 orcid: "0000-0002-0636-1830"                # e.g. 0000-0000-0000-0000
 personal_url: ""         # if you have a separate personal site
+cv_pdf: "assets/cv.pdf"  # path to CV PDF served from the site
 
 # Short bio shown on the home page (Markdown supported)
 bio: |

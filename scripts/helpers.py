@@ -112,7 +112,8 @@ def render_publications(pubs: list) -> str:
             journal_line = f"<div>{j}</div>"
 
         doi_url = f"https://doi.org/{p['doi']}" if p.get("doi") else ""
-        links = _links(PDF=p.get("pdf"), DOI=doi_url, Link=p.get("url"))
+        media_kwargs = {m["label"]: m["url"] for m in p.get("media", []) if m.get("url")}
+        links = _links(PDF=p.get("pdf"), DOI=doi_url, Link=p.get("url"), **media_kwargs)
 
         abstract = ""
         if p.get("abstract"):
