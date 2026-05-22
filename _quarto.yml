@@ -16,14 +16,6 @@ website:
         text: Teaching
       - href: grants.qmd
         text: Grants
-      - text: Service & Outreach
-        menu:
-          - href: service.qmd
-            text: Academic Service
-          - href: outreach.qmd
-            text: Outreach & Media
-      - href: cv.qmd
-        text: CV
     right:
       - icon: github
         href: https://github.com/julianashwin
