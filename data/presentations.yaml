@@ -1,0 +1,25 @@
+# ── Presentations ─────────────────────────────────────────────────────────────
+# type options: "seminar" | "conference" | "keynote" | "invited" | "workshop"
+# List in reverse chronological order.
+
+- title: "Example Talk Title"
+  type: "seminar"
+  venue: "Department of Economics, University Name"
+  location: "City, Country"
+  date: "2024-03-15"              # YYYY-MM-DD
+  slides: ""                      # URL to slides
+  url: ""                         # event/conference URL
+
+- title: "Example Conference Presentation"
+  type: "conference"
+  venue: "Annual Conference on Economics"
+  location: "City, Country"
+  date: "2023-09-10"
+  slides: ""
+  url: ""
+
+# - title: "Invited Lecture"
+#   type: "invited"
+#   venue: "..."
+#   location: "..."
+#   date: "2023-05-20"

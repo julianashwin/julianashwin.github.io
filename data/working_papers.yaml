@@ -1,0 +1,24 @@
+# ── Working papers & preprints ────────────────────────────────────────────────
+# status options: "working-paper" | "under-review" | "revise-resubmit"
+
+- title: "Example Working Paper Title"
+  authors:
+    - "Julian Ashwin"
+    - "Co-Author Name"
+  year: 2024
+  status: "under-review"          # working-paper | under-review | revise-resubmit
+  ssrn: ""                        # SSRN paper ID or full URL
+  url: ""                         # other URL (NBER, CEPR, etc.)
+  pdf: ""
+  abstract: >
+    This paper examines an interesting phenomenon using a novel identification
+    strategy. We find results that challenge existing understanding.
+  tags:
+    - "topic1"
+
+# - title: "Another Working Paper"
+#   authors:
+#     - "Julian Ashwin"
+#   year: 2023
+#   status: "revise-resubmit"
+#   abstract: ""

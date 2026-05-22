@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Julian Ashwin"
+  description: "Academic website of Julian Ashwin"
+  favicon: assets/favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: grants.qmd
+        text: Grants
+      - text: Service & Outreach
+        menu:
+          - href: service.qmd
+            text: Academic Service
+          - href: outreach.qmd
+            text: Outreach & Media
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/julianashwin
+        aria-label: GitHub
+  page-footer:
+    center: "© Julian Ashwin · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+
+execute:
+  echo: false
+  warning: false
+  freeze: false

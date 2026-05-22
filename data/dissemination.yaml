@@ -1,0 +1,23 @@
+# ── Outreach & dissemination ──────────────────────────────────────────────────
+# type options: "media" | "policy" | "blog" | "podcast" | "public-lecture"
+
+- title: "Example Media Coverage or Article Title"
+  type: "media"
+  outlet: "Outlet Name (e.g. The Guardian, NRC Handelsblad)"
+  date: "2024-02"                 # YYYY-MM
+  url: ""
+  description: "Brief description of the piece or coverage."
+
+- title: "Example Policy Brief Title"
+  type: "policy"
+  outlet: "Organisation or outlet name"
+  date: "2023-11"
+  url: ""
+  description: ""
+
+# - title: "Podcast Episode Title"
+#   type: "podcast"
+#   outlet: "Podcast Name"
+#   date: "2023-06"
+#   url: ""
+#   description: ""

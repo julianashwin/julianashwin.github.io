@@ -1,0 +1,92 @@
+---
+title: "Curriculum Vitae"
+toc: true
+toc-depth: 2
+---
+
+```{python}
+#| output: asis
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import (
+    load, load_one, render_publications, render_working_papers,
+    render_grants, render_teaching, render_presentations,
+    render_editorial, render_service, render_conference_org,
+    render_dissemination, _period, _esc
+)
+from IPython.display import HTML, display
+
+profile      = load_one('profile.yaml')
+appointments = load('appointments.yaml')
+education    = load('education.yaml')
+pubs         = load('publications.yaml')
+wps          = load('working_papers.yaml')
+grants       = load('grants.yaml')
+teaching     = load('teaching.yaml')
+presentations = load('presentations.yaml')
+editorial    = load('editorial.yaml')
+service      = load('service.yaml')
+conf_org     = load('conference_org.yaml')
+dissemination = load('dissemination.yaml')
+
+# ── Header ────────────────────────────────────────────────────────────────────
+links = []
+if profile.get('email'):
+    links.append(f'<a href="mailto:{profile["email"]}">{profile["email"]}</a>')
+if profile.get('google_scholar'):
+    links.append(f'<a href="{profile["google_scholar"]}">Google Scholar</a>')
+if profile.get('orcid'):
+    links.append(f'<a href="https://orcid.org/{profile["orcid"]}">ORCID</a>')
+
+display(HTML(
+    f'<p style="color:var(--text-muted)">'
+    f'{profile.get("position","")} &nbsp;·&nbsp; {profile.get("institution","")}</p>'
+    f'<p>{ " &nbsp;·&nbsp; ".join(links) }</p>'
+))
+
+# ── Appointments ──────────────────────────────────────────────────────────────
+rows = []
+for a in appointments:
+    period = _period(a.get('period_start'), a.get('period_end'))
+    rows.append(
+        f'<div class="cv-entry">'
+        f'<span class="cv-entry-year">{period}</span>'
+        f'<span><strong>{_esc(a["title"])}</strong>, {_esc(a.get("department",""))}, {_esc(a.get("institution",""))}</span>'
+        f'</div>'
+    )
+display(HTML('<h2>Positions</h2>' + "\n".join(rows)))
+
+# ── Education ─────────────────────────────────────────────────────────────────
+rows = []
+for e in education:
+    thesis = f', <em>{_esc(e["thesis"])}</em>' if e.get('thesis') else ''
+    rows.append(
+        f'<div class="cv-entry">'
+        f'<span class="cv-entry-year">{e.get("year","")}</span>'
+        f'<span><strong>{_esc(e["degree"])}</strong>, {_esc(e.get("institution",""))}{thesis}</span>'
+        f'</div>'
+    )
+display(HTML('<h2>Education</h2>' + "\n".join(rows)))
+
+# ── Research ──────────────────────────────────────────────────────────────────
+display(HTML('<h2>Publications</h2>'    + render_publications(pubs)))
+display(HTML('<h2>Working Papers</h2>' + render_working_papers(wps)))
+
+# ── Grants ────────────────────────────────────────────────────────────────────
+display(HTML('<h2>Grants & Funding</h2>' + render_grants(grants)))
+
+# ── Teaching ──────────────────────────────────────────────────────────────────
+display(HTML('<h2>Teaching</h2>' + render_teaching(teaching)))
+
+# ── Presentations (most recent 10) ────────────────────────────────────────────
+recent = sorted(presentations, key=lambda x: str(x.get('date','')), reverse=True)[:10]
+display(HTML('<h2>Selected Presentations</h2>' + render_presentations(recent)))
+
+# ── Service ───────────────────────────────────────────────────────────────────
+display(HTML('<h2>Academic Service</h2>'))
+display(HTML('<h3>Editorial & Reviewing</h3>'    + render_editorial(editorial)))
+display(HTML('<h3>Departmental Service</h3>'     + render_service(service)))
+display(HTML('<h3>Conference Organisation</h3>'  + render_conference_org(conf_org)))
+
+# ── Outreach ──────────────────────────────────────────────────────────────────
+display(HTML('<h2>Outreach & Dissemination</h2>' + render_dissemination(dissemination)))
+```

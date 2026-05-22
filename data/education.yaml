@@ -1,0 +1,20 @@
+# ── Education ─────────────────────────────────────────────────────────────────
+# List in reverse chronological order.
+
+- degree: "PhD in Economics"
+  institution: "University Name"
+  year: 2020
+  thesis: "Thesis title"
+  supervisor: "Supervisor Name"
+
+- degree: "MPhil / MSc in Economics"
+  institution: "University Name"
+  year: 2015
+  thesis: ""
+  supervisor: ""
+
+- degree: "BA in Economics"
+  institution: "University Name"
+  year: 2013
+  thesis: ""
+  supervisor: ""

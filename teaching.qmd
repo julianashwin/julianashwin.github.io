@@ -1,0 +1,14 @@
+---
+title: "Teaching"
+toc: false
+---
+
+```{python}
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import load, render_teaching
+from IPython.display import HTML, display
+
+courses = load('teaching.yaml')
+
+display(HTML(render_teaching(courses)))
+```

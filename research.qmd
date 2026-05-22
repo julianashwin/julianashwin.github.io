@@ -1,0 +1,16 @@
+---
+title: "Research"
+toc: true
+---
+
+```{python}
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import load, render_publications, render_working_papers
+from IPython.display import HTML, display
+
+pubs = load('publications.yaml')
+wps  = load('working_papers.yaml')
+
+display(HTML('<h2 class="section-heading">Publications</h2>' + render_publications(pubs)))
+display(HTML('<h2 class="section-heading">Working Papers</h2>' + render_working_papers(wps)))
+```

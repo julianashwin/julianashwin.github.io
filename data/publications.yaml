@@ -1,0 +1,32 @@
+# ── Peer-reviewed publications ────────────────────────────────────────────────
+# Add entries in any order — the website sorts by year (newest first).
+#
+# Required fields: title, authors, year
+# Optional fields: journal, volume, issue, pages, doi, url, pdf, abstract, tags
+
+- title: "Example Published Paper Title"
+  authors:
+    - "Julian Ashwin"
+    - "Co-Author Name"
+  year: 2024
+  journal: "Journal of Economics"
+  volume: 10
+  issue: 2
+  pages: "100–120"
+  doi: "10.xxxx/xxxxxx"          # DOI only, not full URL
+  url: ""                         # publisher page URL (if different from DOI)
+  pdf: ""                         # path to PDF or external URL
+  abstract: >
+    This paper studies an important economic question using novel data and methods.
+    We find significant results with important policy implications.
+  tags:
+    - "topic1"
+    - "topic2"
+
+# - title: "Another Paper"
+#   authors:
+#     - "Julian Ashwin"
+#   year: 2022
+#   journal: "Review of Economic Studies"
+#   doi: ""
+#   abstract: ""

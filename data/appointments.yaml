@@ -1,0 +1,17 @@
+# ── Academic positions ────────────────────────────────────────────────────────
+# List in reverse chronological order (most recent first).
+# Set period_end to null for current positions.
+
+- title: "Assistant Professor"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  period_start: 2020
+  period_end: null      # null = present
+  description: ""       # optional extra detail
+
+# - title: "Postdoctoral Researcher"
+#   institution: "..."
+#   department: "..."
+#   period_start: 2018
+#   period_end: 2020
+#   description: ""

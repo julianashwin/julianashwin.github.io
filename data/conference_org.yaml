@@ -1,0 +1,17 @@
+# ── Conference & workshop organisation ───────────────────────────────────────
+# role examples: "Programme Chair" | "Session Organiser" | "Local Organiser"
+#                "Programme Committee Member" | "Discussant"
+
+- conference: "Example Conference or Workshop Name"
+  role: "Programme Committee Member"
+  year: 2024
+  location: "City, Country"
+  url: ""
+  description: ""
+
+# - conference: "Workshop on Topic"
+#   role: "Organiser"
+#   year: 2023
+#   location: "Maastricht, Netherlands"
+#   url: ""
+#   description: ""

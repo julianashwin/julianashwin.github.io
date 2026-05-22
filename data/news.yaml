@@ -1,0 +1,13 @@
+# ── News & recent highlights ──────────────────────────────────────────────────
+# Shown on the home page. Keep to ~5 most recent items.
+# date format: YYYY-MM-DD or YYYY-MM
+
+- date: "2024-03"
+  text: >
+    New paper "[Example Paper Title](#)" accepted at *Journal of Economics*.
+- date: "2023-11"
+  text: >
+    Presented at [Conference Name](#) in City, Country.
+- date: "2023-09"
+  text: >
+    Awarded [Grant Name](#) from Funder.

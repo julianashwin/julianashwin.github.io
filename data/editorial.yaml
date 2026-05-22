@@ -1,0 +1,18 @@
+# ── Editorial & reviewing roles ───────────────────────────────────────────────
+# type options: "editor" | "associate-editor" | "referee"
+# For referee lists, use one entry per journal.
+
+- role: "Referee"
+  outlet: "Journal of Economics"
+  type: "referee"
+  since: null                     # null if you don't want to list a start year
+
+- role: "Referee"
+  outlet: "Review of Economic Studies"
+  type: "referee"
+  since: null
+
+# - role: "Associate Editor"
+#   outlet: "Journal Name"
+#   type: "associate-editor"
+#   since: 2023

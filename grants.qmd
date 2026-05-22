@@ -1,0 +1,14 @@
+---
+title: "Grants & Funding"
+toc: false
+---
+
+```{python}
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import load, render_grants
+from IPython.display import HTML, display
+
+grants = load('grants.yaml')
+
+display(HTML(render_grants(grants)))
+```

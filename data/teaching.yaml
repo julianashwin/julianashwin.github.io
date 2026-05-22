@@ -1,0 +1,33 @@
+# ── Teaching ──────────────────────────────────────────────────────────────────
+# level options: "undergraduate" | "masters" | "phd"
+# role options: "Lecturer" | "Co-Lecturer" | "Tutor" | "Teaching Assistant"
+
+- course: "Example Course Name"
+  code: "EBC1234"
+  level: "undergraduate"
+  institution: "Maastricht University"
+  role: "Lecturer"
+  description: "Brief description of the course content and approach."
+  years:
+    - "2022–23"
+    - "2023–24"
+    - "2024–25"
+
+- course: "Example Masters Course"
+  code: "EBC5678"
+  level: "masters"
+  institution: "Maastricht University"
+  role: "Lecturer"
+  description: "Brief description."
+  years:
+    - "2023–24"
+    - "2024–25"
+
+# - course: "PhD Seminar"
+#   code: ""
+#   level: "phd"
+#   institution: "Maastricht University"
+#   role: "Lecturer"
+#   description: ""
+#   years:
+#     - "2024–25"

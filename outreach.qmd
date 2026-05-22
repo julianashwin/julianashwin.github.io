@@ -1,0 +1,14 @@
+---
+title: "Outreach & Media"
+toc: false
+---
+
+```{python}
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import load, render_dissemination
+from IPython.display import HTML, display
+
+items = load('dissemination.yaml')
+
+display(HTML(render_dissemination(items)))
+```

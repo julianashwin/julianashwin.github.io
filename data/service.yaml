@@ -1,0 +1,19 @@
+# ── Departmental & institutional service ──────────────────────────────────────
+# type options: "committee" | "hiring" | "admin" | "outreach"
+# Set period_end to null for ongoing roles.
+
+- role: "Member, Curriculum Committee"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  type: "committee"
+  period_start: 2022
+  period_end: null
+  description: ""
+
+# - role: "Member, Hiring Committee"
+#   institution: "Maastricht University"
+#   department: "..."
+#   type: "hiring"
+#   period_start: 2023
+#   period_end: 2024
+#   description: ""

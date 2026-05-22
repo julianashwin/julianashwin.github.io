@@ -1,0 +1,18 @@
+---
+title: "Academic Service"
+toc: true
+---
+
+```{python}
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import load, render_editorial, render_service, render_conference_org
+from IPython.display import HTML, display
+
+editorial     = load('editorial.yaml')
+service       = load('service.yaml')
+conf_org      = load('conference_org.yaml')
+
+display(HTML('<h2 class="section-heading">Editorial & Reviewing</h2>' + render_editorial(editorial)))
+display(HTML('<h2 class="section-heading">Departmental Service</h2>'  + render_service(service)))
+display(HTML('<h2 class="section-heading">Conference Organisation</h2>' + render_conference_org(conf_org)))
+```

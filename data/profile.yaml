@@ -1,0 +1,29 @@
+# ── Personal profile ──────────────────────────────────────────────────────────
+# Used on the home page, CV header, and page metadata.
+
+name: "Julian Ashwin"
+position: "Assistant Professor"
+institution: "Maastricht University"
+department: "School of Business and Economics"
+email: "j.ashwin@maastrichtuniversity.nl"   # update if different
+
+# Social / academic links — leave blank ("") to hide
+github: "julianashwin"
+twitter: ""
+linkedin: ""
+google_scholar: ""       # paste the full URL
+orcid: ""                # e.g. 0000-0000-0000-0000
+personal_url: ""         # if you have a separate personal site
+
+# Short bio shown on the home page (Markdown supported)
+bio: |
+  I am an Assistant Professor in the School of Business and Economics at
+  Maastricht University. My research focuses on [your research focus].
+
+  [Add 1–2 more sentences about your background or approach.]
+
+# Research interests — shown as a bulleted list on the home page
+research_interests:
+  - "Interest 1"
+  - "Interest 2"
+  - "Interest 3"

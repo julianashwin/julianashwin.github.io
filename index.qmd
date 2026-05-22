@@ -1,0 +1,64 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+```{python}
+import sys; sys.path.insert(0, '.')
+from scripts.helpers import load, load_one, render_news, _md
+from IPython.display import HTML, display
+
+profile = load_one('profile.yaml')
+news    = load('news.yaml')
+
+# ── Profile block ─────────────────────────────────────────────────────────────
+interests_html = "".join(f"<li>{i}</li>" for i in profile.get('research_interests', []))
+
+links_html = ""
+if profile.get('email'):
+    links_html += f'<a href="mailto:{profile["email"]}">{profile["email"]}</a><br>'
+if profile.get('google_scholar'):
+    links_html += f'<a href="{profile["google_scholar"]}">Google Scholar</a> &nbsp;'
+if profile.get('github'):
+    links_html += f'<a href="https://github.com/{profile["github"]}">GitHub</a> &nbsp;'
+if profile.get('orcid'):
+    links_html += f'<a href="https://orcid.org/{profile["orcid"]}">ORCID</a>'
+
+import os
+photo_path = 'assets/photo.jpg'
+if os.path.exists(photo_path):
+    photo_html = '<img src="assets/photo.jpg" alt="Profile photo" style="width:180px;border-radius:6px">'
+else:
+    photo_html = (
+        '<div style="width:180px;height:220px;background:#e8f0f8;border-radius:6px;'
+        'display:flex;align-items:center;justify-content:center;'
+        'color:#2c5f8a;font-size:0.8em;text-align:center;padding:1rem">'
+        'Add photo to<br><code>assets/photo.jpg</code></div>'
+    )
+
+display(HTML(f"""
+<div class="profile-block">
+  <div style="flex-shrink:0">{photo_html}</div>
+  <div>
+    <h1 style="margin-top:0">{profile.get('name','')}</h1>
+    <p style="color:var(--text-muted);margin:0">
+      {profile.get('position','')} &nbsp;·&nbsp; {profile.get('institution','')}
+    </p>
+    <p style="margin:0.5rem 0 1rem">{links_html}</p>
+    <div style="margin-bottom:1rem">{_md(profile.get('bio',''))}</div>
+    <div>
+      <strong>Research interests</strong>
+      <ul style="margin:0.25rem 0 0">{interests_html}</ul>
+    </div>
+  </div>
+</div>
+"""))
+
+# ── News ──────────────────────────────────────────────────────────────────────
+if news:
+    display(HTML(
+        '<h2 class="section-heading">News</h2>'
+        + render_news(news)
+    ))
+```

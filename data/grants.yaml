@@ -1,0 +1,26 @@
+# ── Research funding & grants ─────────────────────────────────────────────────
+# role options: "PI" | "Co-PI" | "Co-I" | "Researcher"
+# List in reverse chronological order by period_start.
+
+- title: "Example Grant Title"
+  funder: "Dutch Research Council"
+  funder_short: "NWO"             # abbreviation shown in compact views
+  amount: "250,000"
+  currency: "EUR"
+  role: "PI"
+  period_start: 2023
+  period_end: 2026                # null if ongoing
+  description: >
+    Brief description of the project aims and research questions.
+  url: ""                         # link to project page or funder record
+
+# - title: "Another Grant"
+#   funder: "European Research Council"
+#   funder_short: "ERC"
+#   amount: "1,500,000"
+#   currency: "EUR"
+#   role: "PI"
+#   period_start: 2021
+#   period_end: 2026
+#   description: ""
+#   url: ""
