@@ -2,32 +2,125 @@
 # level options: "undergraduate" | "masters" | "phd"
 # role options: "Lecturer" | "Co-Lecturer" | "Tutor" | "Teaching Assistant"
 
-- course: "Example Course Name"
-  code: "EBC1234"
+# ── Maastricht University ─────────────────────────────────────────────────────
+
+- course: "ICT, Labour and Inequality"
+  code: "EBC2130"
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Lecturer"
-  description: "Brief description of the course content and approach."
+  description: ""
   years:
-    - "2022–23"
     - "2023–24"
     - "2024–25"
 
-- course: "Example Masters Course"
-  code: "EBC5678"
-  level: "masters"
+- course: "Modern Economic Crises: Causes and Solutions"
+  code: "EBC2191"
+  level: "undergraduate"
   institution: "Maastricht University"
   role: "Lecturer"
-  description: "Brief description."
+  description: ""
   years:
     - "2023–24"
     - "2024–25"
 
-# - course: "PhD Seminar"
-#   code: ""
-#   level: "phd"
-#   institution: "Maastricht University"
-#   role: "Lecturer"
-#   description: ""
-#   years:
-#     - "2024–25"
+- course: "History of Economic Thought"
+  code: "EBC2153"
+  level: "undergraduate"
+  institution: "Maastricht University"
+  role: "Co-Lecturer"
+  description: "Co-taught with Kristof Bosmans."
+  years:
+    - "2023–24"
+    - "2024–25"
+    - "2025–26"
+
+- course: "International Economic Relations: the Case of Europe"
+  code: "SSC3034"
+  level: "undergraduate"
+  institution: "Maastricht University"
+  role: "Co-Lecturer"
+  description: "Co-taught with Mark Sanders. UCM (University College Maastricht) course."
+  years:
+    - "2023–24"
+    - "2024–25"
+
+- course: "Contending Perspectives in Economics: the Case of Inequality"
+  code: "SSC2010"
+  level: "undergraduate"
+  institution: "Maastricht University"
+  role: "Lecturer"
+  description: "UCM (University College Maastricht) course."
+  years:
+    - "2025–26"
+
+- course: "Economics for Business Engineering"
+  code: "BENC1005"
+  level: "undergraduate"
+  institution: "Maastricht University"
+  role: "Lecturer"
+  description: ""
+  years:
+    - "2023–24"
+
+# ── Prior teaching ─────────────────────────────────────────────────────────────
+
+- course: "Statistical Programming and Statistical Learning"
+  code: ""
+  level: "masters"
+  institution: "University College London"
+  role: "Teaching Fellow"
+  description: "MSc Data Science for Public Policy programme."
+  years:
+    - "2022–23"
+
+- course: "Text Analysis Methods"
+  code: ""
+  level: "phd"
+  institution: "Heidelberg University"
+  role: "Lecturer"
+  description: "Short PhD course on NLP methods for economists."
+  years:
+    - "2022"
+
+- course: "Macroeconomics"
+  code: ""
+  level: "undergraduate"
+  institution: "Oriel College, University of Oxford"
+  role: "Tutor"
+  description: "Second-year BA Economics tutorials."
+  years:
+    - "2019–20"
+    - "2020–21"
+
+- course: "Money and Banking"
+  code: ""
+  level: "undergraduate"
+  institution: "Oriel and University College, University of Oxford"
+  role: "Tutor"
+  description: "Third-year BA Economics tutorials."
+  years:
+    - "2017–18"
+    - "2018–19"
+    - "2019–20"
+    - "2020–21"
+
+- course: "Mathematics for Economists"
+  code: ""
+  level: "undergraduate"
+  institution: "University College, University of Oxford"
+  role: "Tutor"
+  description: "First-year BA Economics tutorials."
+  years:
+    - "2017–18"
+    - "2018–19"
+
+- course: "Labour Economics"
+  code: ""
+  level: "undergraduate"
+  institution: "University College, University of Oxford"
+  role: "Tutor"
+  description: "Third-year BA Economics tutorials."
+  years:
+    - "2017–18"
+    - "2018–19"

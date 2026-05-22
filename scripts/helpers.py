@@ -49,12 +49,12 @@ def _md(text: str) -> str:
     return text
 
 
-def _authors(authors: list, highlight: str = "Ashwin") -> str:
-    """Format an author list; bold the entry that contains `highlight`."""
+def _authors(authors: list, highlight: str = "Julian Ashwin") -> str:
+    """Format an author list; bold the entry that matches `highlight` exactly."""
     parts = []
     for a in authors:
-        a = _esc(a)
-        parts.append(f"<strong>{a}</strong>" if highlight.lower() in a.lower() else a)
+        escaped = _esc(a)
+        parts.append(f"<strong>{escaped}</strong>" if highlight.lower() == a.lower() else escaped)
     return ", ".join(parts)
 
 
@@ -97,7 +97,7 @@ def _fmt_date(date_str: str) -> str:
 def render_publications(pubs: list) -> str:
     if not pubs:
         return "<p><em>No publications listed yet.</em></p>"
-    pubs = sorted(pubs, key=lambda x: x.get("year", 0), reverse=True)
+    pubs = sorted(pubs, key=lambda x: x.get("year") or 0, reverse=True)
     rows = []
     for p in pubs:
         journal_line = ""
@@ -122,9 +122,10 @@ def render_publications(pubs: list) -> str:
                 "</details>"
             )
 
+        year_str = f" ({p['year']})" if p.get("year") else ""
         rows.append(
             f'<div class="pub-entry">'
-            f'<div><strong>{_esc(p["title"])}</strong> ({p.get("year", "")})</div>'
+            f'<div><strong>{_esc(p["title"])}</strong>{year_str}</div>'
             f'<div>{_authors(p.get("authors", []))}</div>'
             f"{journal_line}"
             f"{links}{abstract}"
@@ -136,7 +137,7 @@ def render_publications(pubs: list) -> str:
 def render_working_papers(wps: list) -> str:
     if not wps:
         return "<p><em>No working papers listed yet.</em></p>"
-    wps = sorted(wps, key=lambda x: x.get("year", 0), reverse=True)
+    wps = sorted(wps, key=lambda x: x.get("year") or 0, reverse=True)
     status_labels = {
         "working-paper": "Working paper",
         "under-review": "Under review",
@@ -157,9 +158,10 @@ def render_working_papers(wps: list) -> str:
                 f'<div class="abstract-text">{_esc(p["abstract"])}</div>'
                 "</details>"
             )
+        year_str = f" ({p['year']})" if p.get("year") else ""
         rows.append(
             f'<div class="pub-entry">'
-            f'<div><strong>{_esc(p["title"])}</strong> ({p.get("year", "")})</div>'
+            f'<div><strong>{_esc(p["title"])}</strong>{year_str}</div>'
             f'<div>{_authors(p.get("authors", []))}</div>'
             f'<div><em>{status}</em></div>'
             f"{links}{abstract}"
@@ -306,11 +308,14 @@ def render_conference_org(items: list) -> str:
 def render_dissemination(items: list) -> str:
     if not items:
         return "<p><em>No outreach items listed yet.</em></p>"
-    items = sorted(items, key=lambda x: str(x.get("date", "")), reverse=True)
+    type_order = {"podcast": 0, "media": 1, "blog": 2, "policy": 3, "public-lecture": 4}
     type_labels = {
-        "media": "Media", "policy": "Policy", "blog": "Blog",
-        "podcast": "Podcast", "public-lecture": "Public lecture",
+        "podcast": "Podcasts", "media": "Software & Media", "blog": "Blogs & Written Pieces",
+        "policy": "Policy", "public-lecture": "Public Lectures",
     }
+    # Sort by date descending first (stable), then by type order (stable) — gives type groups newest-first within each group.
+    items = sorted(items, key=lambda x: str(x.get("date", "")), reverse=True)
+    items = sorted(items, key=lambda x: type_order.get(x.get("type", ""), 9))
     current_type = None
     rows = []
     for item in items:

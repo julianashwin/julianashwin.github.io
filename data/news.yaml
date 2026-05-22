@@ -1,13 +1,32 @@
 # ── News & recent highlights ──────────────────────────────────────────────────
-# Shown on the home page. Keep to ~5 most recent items.
-# date format: YYYY-MM-DD or YYYY-MM
+# Keep to ~6 most recent items. date format: YYYY-MM-DD or YYYY-MM.
+# Markdown links and *italic* / **bold** are supported in the text field.
 
-- date: "2024-03"
+- date: "2026-02"
   text: >
-    New paper "[Example Paper Title](#)" accepted at *Journal of Economics*.
-- date: "2023-11"
+    New paper "Qualitative Analysis with Large-N: A New Method with an Application to
+    Aspirations in Bangladesh" published in *The Economic Journal*.
+
+- date: "2026-01"
   text: >
-    Presented at [Conference Name](#) in City, Country.
-- date: "2023-09"
+    Awarded NWO VENI Grant (€320,000) from the Dutch Research Council.
+
+- date: "2026-01"
   text: >
-    Awarded [Grant Name](#) from Funder.
+    Special issue introduction "The Economics of Ageing and Longevity" published in
+    *Journal of the Economics of Ageing* (with David Canning and Johanna Wallenius).
+
+- date: "2025-12"
+  text: >
+    Paper "Reframing the Epidemiological Transition – Increasing Returns to Tackling
+    Ageing-Related Diseases" conditionally accepted at *Nature Aging*
+    (with David Bloom, Naomi Lee, Peter Piot, and Andrew Scott).
+
+- date: "2025-06"
+  text: >
+    Awarded GSBE Fellowship, Maastricht University.
+
+- date: "2025-01"
+  text: >
+    Paper "Neural Network Learning for Nonlinear Economies" published in
+    *Journal of Monetary Economics* (with Paul Beaudry and Martin Ellison).

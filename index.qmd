@@ -13,7 +13,7 @@ profile = load_one('profile.yaml')
 news    = load('news.yaml')
 
 # ── Profile block ─────────────────────────────────────────────────────────────
-interests_html = "".join(f"<li>{i}</li>" for i in profile.get('research_interests', []))
+interests_html = "".join(f"<li>{i}</li>" for i in (profile.get('research_interests') or []))
 
 links_html = ""
 if profile.get('email'):
@@ -47,10 +47,7 @@ display(HTML(f"""
     </p>
     <p style="margin:0.5rem 0 1rem">{links_html}</p>
     <div style="margin-bottom:1rem">{_md(profile.get('bio',''))}</div>
-    <div>
-      <strong>Research interests</strong>
-      <ul style="margin:0.25rem 0 0">{interests_html}</ul>
-    </div>
+    {('<div><strong>Research interests</strong><ul style="margin:0.25rem 0 0">' + interests_html + '</ul></div>') if interests_html else ''}
   </div>
 </div>
 """))

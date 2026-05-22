@@ -1,32 +1,144 @@
 # ── Peer-reviewed publications ────────────────────────────────────────────────
-# Add entries in any order — the website sorts by year (newest first).
-#
-# Required fields: title, authors, year
-# Optional fields: journal, volume, issue, pages, doi, url, pdf, abstract, tags
+# Sorted reverse-chronologically. Authors: bold = Julian Ashwin (handled by _authors()).
 
-- title: "Example Published Paper Title"
+- title: "Reframing the Epidemiological Transition – Increasing Returns to Tackling Ageing-Related Diseases"
   authors:
     - "Julian Ashwin"
-    - "Co-Author Name"
-  year: 2024
-  journal: "Journal of Economics"
-  volume: 10
-  issue: 2
-  pages: "100–120"
-  doi: "10.xxxx/xxxxxx"          # DOI only, not full URL
-  url: ""                         # publisher page URL (if different from DOI)
-  pdf: ""                         # path to PDF or external URL
-  abstract: >
-    This paper studies an important economic question using novel data and methods.
-    We find significant results with important policy implications.
+    - "David Bloom"
+    - "Naomi Lee"
+    - "Peter Piot"
+    - "Andrew Scott"
+  year: 2026
+  journal: "Nature Aging (forthcoming)"
+  doi: ""
   tags:
-    - "topic1"
-    - "topic2"
+    - "ageing"
+    - "longevity"
+    - "forthcoming"
 
-# - title: "Another Paper"
-#   authors:
-#     - "Julian Ashwin"
-#   year: 2022
-#   journal: "Review of Economic Studies"
-#   doi: ""
-#   abstract: ""
+- title: "Qualitative Analysis with Large-N: A New Method with an Application to Aspirations in Bangladesh"
+  authors:
+    - "Julian Ashwin"
+    - "Vijayendra Rao"
+    - "Monica Biradavolu"
+    - "Aditya Chhabra"
+    - "Arshia Haque"
+    - "Afsana Khan"
+    - "Nandini Krishnan"
+  year: 2026
+  journal: "The Economic Journal"
+  doi: "10.1093/ej/ueag005"
+  tags:
+    - "nlp"
+    - "development"
+
+- title: "Introduction to the Special Issue: The Economics of Ageing and Longevity"
+  authors:
+    - "Julian Ashwin"
+    - "David Canning"
+    - "Johanna Wallenius"
+  year: 2026
+  journal: "Journal of the Economics of Ageing"
+  doi: "10.1016/j.jeoa.2026.100642"
+  tags:
+    - "ageing"
+    - "longevity"
+
+- title: "Neural Network Learning for Nonlinear Economies"
+  authors:
+    - "Julian Ashwin"
+    - "Paul Beaudry"
+    - "Martin Ellison"
+  year: 2025
+  journal: "Journal of Monetary Economics"
+  doi: "10.1016/j.jmoneco.2024.103723"
+  tags:
+    - "macroeconomics"
+    - "machine-learning"
+
+- title: "Using Large Language Models for Qualitative Analysis Can Introduce Serious Bias"
+  authors:
+    - "Julian Ashwin"
+    - "Aditya Chhabra"
+    - "Vijayendra Rao"
+  year: 2025
+  journal: "Sociological Methods and Research"
+  doi: "10.1177/00491241251338246"
+  tags:
+    - "nlp"
+    - "llm"
+
+- title: "A Bayesian Model of Later Life Mortality Trends and Implications for Longevity"
+  authors:
+    - "Julian Ashwin"
+    - "Andrew Scott"
+  year: 2025
+  journal: "Journal of the Royal Statistical Society: Series A"
+  doi: "10.1093/jrsssa/qnaf026"
+  tags:
+    - "ageing"
+    - "longevity"
+    - "bayesian"
+
+- title: "Nowcasting Euro Area GDP with News Sentiment: A Tale of Two Crises"
+  authors:
+    - "Julian Ashwin"
+    - "Eleni Kalamara"
+    - "Lorena Saiz"
+  year: 2024
+  journal: "Journal of Applied Econometrics"
+  doi: "10.1002/jae.3057"
+  tags:
+    - "nowcasting"
+    - "nlp"
+    - "macroeconomics"
+
+- title: "Financial News Media and Volatility: Is There More to Newspapers than News?"
+  authors:
+    - "Julian Ashwin"
+  year: 2024
+  journal: "Journal of Financial Markets"
+  doi: "10.1016/j.finmar.2024.100896"
+  tags:
+    - "finance"
+    - "nlp"
+
+- title: "International Gains to Achieving Healthy Longevity"
+  authors:
+    - "Andrew Scott"
+    - "Julian Ashwin"
+    - "Martin Ellison"
+    - "David Sinclair"
+  year: 2023
+  journal: "Cold Spring Harbor Perspectives in Medicine"
+  doi: "10.1101/cshperspect.a041202"
+  tags:
+    - "ageing"
+    - "longevity"
+
+- title: "An Adaptive Dynamical Model of Default Contagion"
+  authors:
+    - "Damian Smug"
+    - "Julian Ashwin"
+    - "Peter Ashwin"
+    - "Didier Sornette"
+  year: 2022
+  journal: "Quantitative Finance"
+  doi: "10.1080/14697688.2022.2039755"
+  tags:
+    - "finance"
+    - "networks"
+
+- title: "Bayesian Topic Regression for Causal Inference"
+  authors:
+    - "Maximilian Ahrens"
+    - "Julian Ashwin"
+    - "Jan-Peter Calliess"
+    - "Vu Nguyen"
+  year: 2021
+  journal: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  pages: "8162–8188"
+  doi: "10.18653/v1/2021.emnlp-main.644"
+  tags:
+    - "nlp"
+    - "causal-inference"

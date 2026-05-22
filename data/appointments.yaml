@@ -1,17 +1,93 @@
-# ── Academic positions ────────────────────────────────────────────────────────
-# List in reverse chronological order (most recent first).
-# Set period_end to null for current positions.
+# ── Academic positions & appointments ─────────────────────────────────────────
+# Reverse chronological (most recent first). period_end: null = present.
 
 - title: "Assistant Professor"
   institution: "Maastricht University"
-  department: "School of Business and Economics"
-  period_start: 2020
-  period_end: null      # null = present
-  description: ""       # optional extra detail
+  department: "Department of Macro, International and Labour Economics (MILE), School of Business and Economics"
+  period_start: 2023
+  period_end: null
+  description: ""
 
-# - title: "Postdoctoral Researcher"
-#   institution: "..."
-#   department: "..."
-#   period_start: 2018
-#   period_end: 2020
-#   description: ""
+- title: "Research Fellow"
+  institution: "Ellison Institute of Technology"
+  department: ""
+  period_start: 2024
+  period_end: null
+  description: "Oxford, UK."
+
+- title: "GSBE Fellow"
+  institution: "Maastricht University"
+  department: "Graduate School of Business and Economics"
+  period_start: 2025
+  period_end: null
+  description: ""
+
+- title: "New Map of Life Fellow"
+  institution: "Stanford Center on Longevity, Stanford University"
+  department: ""
+  period_start: 2022
+  period_end: 2024
+  description: "Stanford, CA, USA."
+
+- title: "Academic Consultant"
+  institution: "World Bank"
+  department: "Development Research Group"
+  period_start: 2021
+  period_end: null
+  description: "Washington DC, USA."
+
+- title: "Postdoctoral Researcher"
+  institution: "London Business School"
+  department: "Department of Economics"
+  period_start: 2021
+  period_end: 2023
+  description: "London, UK."
+
+- title: "PhD Trainee"
+  institution: "European Central Bank"
+  department: "DG Economics (Business Cycle Analysis)"
+  period_start: 2020
+  period_end: 2021
+  description: "Frankfurt, Germany."
+
+- title: "Summer Associate"
+  institution: "Goldman Sachs"
+  department: "Global Markets"
+  period_start: 2021
+  period_end: 2021
+  description: "London, UK."
+
+- title: "Research Assistant"
+  institution: "University of Oxford"
+  department: "Department of Economics"
+  period_start: 2020
+  period_end: 2021
+  description: "Research assistant to Guido Ascari and Sophocles Mavroeidis."
+
+- title: "Instructor"
+  institution: "ViaX"
+  department: ""
+  period_start: 2019
+  period_end: 2021
+  description: "Short research projects in Economics."
+
+- title: "Policy Advisor"
+  institution: "Cabinet Office"
+  department: "Open Innovation Team"
+  period_start: 2018
+  period_end: 2018
+  description: "London, UK."
+
+- title: "Research Assistant"
+  institution: "Smith School for Enterprise and the Environment, University of Oxford"
+  department: ""
+  period_start: 2014
+  period_end: 2014
+  description: ""
+
+- title: "Research Assistant"
+  institution: "Tax Administration Research Centre, University of Exeter"
+  department: ""
+  period_start: 2014
+  period_end: 2014
+  description: ""

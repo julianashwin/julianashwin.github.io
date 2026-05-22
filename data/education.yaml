@@ -1,20 +1,22 @@
 # ── Education ─────────────────────────────────────────────────────────────────
-# List in reverse chronological order.
+# Reverse chronological.
 
-- degree: "PhD in Economics"
-  institution: "University Name"
-  year: 2020
-  thesis: "Thesis title"
-  supervisor: "Supervisor Name"
+- degree: "DPhil in Economics"
+  institution: "Nuffield College, University of Oxford"
+  year: 2022
+  thesis: ""
+  supervisor: "Prof Martin Ellison (Oxford) and Prof Stephen Hansen (Imperial College). Examiners: Prof Michael McMahon (Oxford) and Prof Roger Farmer (UCLA & Warwick)."
 
-- degree: "MPhil / MSc in Economics"
-  institution: "University Name"
+- degree: "MPhil in Economics"
+  institution: "Nuffield College, University of Oxford"
+  year: 2017
+  thesis: ""
+  supervisor: ""
+  notes: "Distinction"
+
+- degree: "BA in Philosophy, Politics and Economics"
+  institution: "Hertford College, University of Oxford"
   year: 2015
   thesis: ""
   supervisor: ""
-
-- degree: "BA in Economics"
-  institution: "University Name"
-  year: 2013
-  thesis: ""
-  supervisor: ""
+  notes: "First Class"

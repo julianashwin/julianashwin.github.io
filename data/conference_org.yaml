@@ -1,17 +1,29 @@
 # ── Conference & workshop organisation ───────────────────────────────────────
-# role examples: "Programme Chair" | "Session Organiser" | "Local Organiser"
-#                "Programme Committee Member" | "Discussant"
 
-- conference: "Example Conference or Workshop Name"
-  role: "Programme Committee Member"
+- conference: "CEPR Conference on the Economics of Ageing and Longevity"
+  role: "Co-organiser"
+  year: 2025
+  location: "London Business School, London, UK"
+  url: ""
+  description: "Co-organised with David Canning (Harvard) and Johanna Wallenius (Stockholm School of Economics)."
+
+- conference: "MILE Seminar Series, Maastricht University"
+  role: "Co-organiser"
   year: 2024
-  location: "City, Country"
+  location: "Maastricht, Netherlands"
   url: ""
   description: ""
 
-# - conference: "Workshop on Topic"
-#   role: "Organiser"
-#   year: 2023
-#   location: "Maastricht, Netherlands"
-#   url: ""
-#   description: ""
+- conference: "Young Dutch Economist Meetings (YDEM)"
+  role: "Co-founder and Co-organiser"
+  year: 2024
+  location: "De Nederlandsche Bank, Amsterdam, Netherlands"
+  url: ""
+  description: "Founding group includes colleagues from DNB, VU Amsterdam and University of Groningen."
+
+- conference: "MORSE Conference (track)"
+  role: "Co-organiser"
+  year: 2024
+  location: ""
+  url: ""
+  description: ""

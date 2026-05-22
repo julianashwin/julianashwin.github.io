@@ -1,18 +1,57 @@
 # ── Editorial & reviewing roles ───────────────────────────────────────────────
 # type options: "editor" | "associate-editor" | "referee"
-# For referee lists, use one entry per journal.
+
+- role: "Guest Editor"
+  outlet: "Journal of the Economics of Ageing — Special Issue on the Economics of Ageing and Longevity (with David Canning and Johanna Wallenius)"
+  type: "editor"
+  since: 2026
 
 - role: "Referee"
-  outlet: "Journal of Economics"
-  type: "referee"
-  since: null                     # null if you don't want to list a start year
-
-- role: "Referee"
-  outlet: "Review of Economic Studies"
+  outlet: "European Economic Review"
   type: "referee"
   since: null
 
-# - role: "Associate Editor"
-#   outlet: "Journal Name"
-#   type: "associate-editor"
-#   since: 2023
+- role: "Referee"
+  outlet: "Journal of Applied Econometrics"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Macroeconomic Dynamics"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Journal of Business and Economic Statistics"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Journal of the Economics of Ageing"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Oxford Bulletin of Economics and Statistics"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Behavioral Finance and Asset Prices (Springer)"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Sociological Methods and Research"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Applied Economics"
+  type: "referee"
+  since: null
+
+- role: "Referee"
+  outlet: "Empirical Economics"
+  type: "referee"
+  since: null

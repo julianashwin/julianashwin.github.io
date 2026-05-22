@@ -5,25 +5,29 @@ name: "Julian Ashwin"
 position: "Assistant Professor"
 institution: "Maastricht University"
 department: "School of Business and Economics"
-email: "j.ashwin@maastrichtuniversity.nl"   # update if different
+email: "julian.ashwin@maastrichtuniversity.nl"   # update if different
 
 # Social / academic links — leave blank ("") to hide
 github: "julianashwin"
 twitter: ""
-linkedin: ""
-google_scholar: ""       # paste the full URL
-orcid: ""                # e.g. 0000-0000-0000-0000
+linkedin: "https://www.linkedin.com/in/julian-ashwin-81411083/"
+google_scholar: "https://scholar.google.co.uk/citations?user=-p7wgEUAAAAJ&hl=en"       # paste the full URL
+orcid: "0000-0002-0636-1830"                # e.g. 0000-0000-0000-0000
 personal_url: ""         # if you have a separate personal site
 
 # Short bio shown on the home page (Markdown supported)
 bio: |
-  I am an Assistant Professor in the School of Business and Economics at
-  Maastricht University. My research focuses on [your research focus].
+  I am an Assistant Professor of Macroeconomics in the School of Business and Economics at
+  Maastricht University. My research focuses on the economics of ageing and longevity,
+  expectations formation and natural language processing methods.
 
-  [Add 1–2 more sentences about your background or approach.]
+  I am currently a Research Fellow at the [Ellison Institute of Technology](https://eit.org/)
+  and at [Netspar](https://www.netspar.nl/).
+
+
 
 # Research interests — shown as a bulleted list on the home page
 research_interests:
-  - "Interest 1"
-  - "Interest 2"
-  - "Interest 3"
+#  - "Interest 1"
+#  - "Interest 2"
+#  - "Interest 3"

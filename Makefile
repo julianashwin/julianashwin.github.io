@@ -1,7 +1,7 @@
 PYTHON := .venv/bin/python3
 
 preview:
-	QUARTO_PYTHON=$(PYTHON) quarto preview
+	QUARTO_PYTHON=$(PYTHON) quarto preview --no-cache
 
 render:
 	QUARTO_PYTHON=$(PYTHON) quarto render --no-cache

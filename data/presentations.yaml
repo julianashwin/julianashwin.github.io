@@ -1,25 +1,295 @@
 # ── Presentations ─────────────────────────────────────────────────────────────
 # type options: "seminar" | "conference" | "keynote" | "invited" | "workshop"
-# List in reverse chronological order.
+# Sorted reverse-chronologically by date.
 
-- title: "Example Talk Title"
-  type: "seminar"
-  venue: "Department of Economics, University Name"
-  location: "City, Country"
-  date: "2024-03-15"              # YYYY-MM-DD
-  slides: ""                      # URL to slides
-  url: ""                         # event/conference URL
+# ── 2025 ──────────────────────────────────────────────────────────────────────
 
-- title: "Example Conference Presentation"
+- title: "CEPR Conference on the Economics of Ageing and Longevity"
   type: "conference"
-  venue: "Annual Conference on Economics"
-  location: "City, Country"
-  date: "2023-09-10"
-  slides: ""
-  url: ""
+  venue: "Centre for Economic Policy Research"
+  location: "London, UK"
+  date: "2025-09"
 
-# - title: "Invited Lecture"
-#   type: "invited"
-#   venue: "..."
-#   location: "..."
-#   date: "2023-05-20"
+- title: "North East Universities Development Consortium (NEUDC)"
+  type: "conference"
+  venue: "NEUDC"
+  location: "USA"
+  date: "2025-10"
+
+- title: "CEPR Conferences"
+  type: "conference"
+  venue: "Centre for Economic Policy Research"
+  location: ""
+  date: "2025-07"
+
+- title: "OECD Presentation"
+  type: "invited"
+  venue: "OECD"
+  location: "Paris, France"
+  date: "2025-06"
+
+- title: "European Economic Association Annual Congress"
+  type: "conference"
+  venue: "EEA"
+  location: ""
+  date: "2025-08"
+
+- title: "Royal Economic Society Annual Conference"
+  type: "conference"
+  venue: "RES"
+  location: "UK"
+  date: "2025-04"
+
+- title: "European Central Bank Seminar"
+  type: "seminar"
+  venue: "European Central Bank"
+  location: "Frankfurt, Germany"
+  date: "2025-05"
+
+- title: "ASSA Annual Meeting"
+  type: "conference"
+  venue: "Allied Social Sciences Associations"
+  location: "Philadelphia, PA, USA"
+  date: "2025-01"
+
+# ── 2024 ──────────────────────────────────────────────────────────────────────
+
+- title: "ECB AI in Economics Seminar"
+  type: "seminar"
+  venue: "European Central Bank"
+  location: "Frankfurt, Germany"
+  date: "2024-11"
+
+- title: "North East Universities Development Consortium (NEUDC)"
+  type: "conference"
+  venue: "NEUDC"
+  location: "USA"
+  date: "2024-10"
+
+- title: "London Longevity Workshop"
+  type: "workshop"
+  venue: "London Longevity Workshop"
+  location: "London, UK"
+  date: "2024-06"
+
+- title: "CEPR Economics of Longevity & Ageing Workshop"
+  type: "workshop"
+  venue: "Centre for Economic Policy Research"
+  location: "London, UK"
+  date: "2024-04"
+
+- title: "MeasureDev Conference"
+  type: "conference"
+  venue: "MeasureDev"
+  location: "Online"
+  date: "2024-09"
+
+- title: "LBS Economics Alumni Conference (Discussant)"
+  type: "conference"
+  venue: "London Business School"
+  location: "London, UK"
+  date: "2024-06"
+
+- title: "OECD Working Party No. 3 Lunch Presentation"
+  type: "invited"
+  venue: "OECD"
+  location: "Paris, France"
+  date: "2024-05"
+
+# ── 2023 ──────────────────────────────────────────────────────────────────────
+
+- title: "MWZ Text as Data Workshop"
+  type: "workshop"
+  venue: "MWZ Text as Data"
+  location: "Online"
+  date: "2023-12"
+
+- title: "Conference on Expectations in Dynamic Macroeconomic Models"
+  type: "conference"
+  venue: "Conference on Expectations in Dynamic Macroeconomic Models"
+  location: "Vienna, Austria"
+  date: "2023-10"
+
+- title: "Computational and Financial Econometrics (CFE)"
+  type: "conference"
+  venue: "CFE"
+  location: "Nice, France"
+  date: "2023-06"
+
+- title: "LSE Inequalities Institute Seminar"
+  type: "seminar"
+  venue: "LSE Inequalities Institute"
+  location: "London, UK"
+  date: "2023-03"
+
+# ── 2022 ──────────────────────────────────────────────────────────────────────
+
+- title: "Computational and Financial Econometrics (CFE)"
+  type: "conference"
+  venue: "CFE"
+  location: "London, UK"
+  date: "2022-12"
+
+- title: "KOF Swiss Economic Institute Seminar"
+  type: "seminar"
+  venue: "KOF Swiss Economic Institute"
+  location: "Zurich, Switzerland"
+  date: "2022-11"
+
+- title: "Makro- und Ökonometrie-Seminar"
+  type: "seminar"
+  venue: "Heidelberg University"
+  location: "Heidelberg, Germany"
+  date: "2022-10"
+
+- title: "CIFAR Boundaries, Membranes and Barriers Fall Meeting"
+  type: "conference"
+  venue: "CIFAR BMB"
+  location: "Berkeley, CA, USA"
+  date: "2022-10"
+
+- title: "Behavioural Macroeconomics Workshop"
+  type: "workshop"
+  venue: "Behavioural Macroeconomics Workshop"
+  location: "Bamberg, Germany"
+  date: "2022-09"
+
+- title: "Economics and Machine Learning Jamboree"
+  type: "workshop"
+  venue: "University of Oxford"
+  location: "Oxford, UK"
+  date: "2022-06"
+
+- title: "MMF Society PhD Conference"
+  type: "conference"
+  venue: "MMF Society"
+  location: "Edinburgh, UK"
+  date: "2022-06"
+
+- title: "QMUL PhD Conference"
+  type: "conference"
+  venue: "Queen Mary University of London"
+  location: "London, UK"
+  date: "2022-05"
+
+- title: "Investor Emotions & Asset Pricing Meeting"
+  type: "conference"
+  venue: "IEAP"
+  location: "Lille, France"
+  date: "2022-04"
+
+# ── 2021 ──────────────────────────────────────────────────────────────────────
+
+- title: "RES Symposium of Junior Researchers"
+  type: "conference"
+  venue: "Royal Economic Society"
+  location: "Belfast, UK"
+  date: "2021-09"
+
+- title: "Computational Economics and Finance (CEF)"
+  type: "conference"
+  venue: "CEF"
+  location: "Tokyo, Japan (virtual)"
+  date: "2021-07"
+
+- title: "Barcelona GSE Summer Forum"
+  type: "conference"
+  venue: "Barcelona GSE"
+  location: "Barcelona, Spain (virtual)"
+  date: "2021-06"
+
+- title: "MIMA Seminar"
+  type: "seminar"
+  venue: "University of Warwick"
+  location: "Warwick, UK (virtual)"
+  date: "2021-05"
+
+- title: "EEA-ESEM Annual Congress"
+  type: "conference"
+  venue: "EEA-ESEM"
+  location: "Virtual"
+  date: "2021-08"
+
+- title: "Methods and Measurement Conference"
+  type: "conference"
+  venue: "Methods and Measurement Conference"
+  location: "Philadelphia, PA, USA"
+  date: "2021-04"
+
+# ── 2020 ──────────────────────────────────────────────────────────────────────
+
+- title: "Warsaw International Economics Meeting"
+  type: "conference"
+  venue: "WIEM"
+  location: "Warsaw, Poland"
+  date: "2020-09"
+
+- title: "Young Economist Symposium"
+  type: "conference"
+  venue: "YES"
+  location: "Philadelphia, PA, USA"
+  date: "2020-08"
+
+- title: "MIMA Seminar"
+  type: "seminar"
+  venue: "University of Warwick"
+  location: "Warwick, UK"
+  date: "2020-06"
+
+- title: "ISCEF Conference"
+  type: "conference"
+  venue: "ISCEF"
+  location: "Paris, France"
+  date: "2020-04"
+
+- title: "Warwick PhD Conference"
+  type: "conference"
+  venue: "University of Warwick"
+  location: "Warwick, UK"
+  date: "2020-03"
+
+- title: "Econometric Society Winter Meeting"
+  type: "conference"
+  venue: "Econometric Society"
+  location: "Nottingham, UK"
+  date: "2020-01"
+
+# ── 2019 ──────────────────────────────────────────────────────────────────────
+
+- title: "Computational and Financial Econometrics / Computational Statistics (CFE-CMStatistics)"
+  type: "conference"
+  venue: "CFE-CMStatistics"
+  location: "Iasi, Romania"
+  date: "2019-12"
+
+- title: "RES Junior Researchers Symposium"
+  type: "conference"
+  venue: "Royal Economic Society"
+  location: "Warwick, UK"
+  date: "2019-09"
+
+- title: "Computational Economics and Finance (CEF)"
+  type: "conference"
+  venue: "CEF"
+  location: "Ottawa, Canada"
+  date: "2019-06"
+
+- title: "EcoMod Conference"
+  type: "conference"
+  venue: "EcoMod"
+  location: "Ponta Delgada, Azores, Portugal"
+  date: "2019-07"
+
+- title: "Computational and Financial Econometrics (CFE)"
+  type: "conference"
+  venue: "CFE"
+  location: "London, UK"
+  date: "2019-12"
+
+# ── 2018 ──────────────────────────────────────────────────────────────────────
+
+- title: "Computational and Financial Econometrics / Computational Statistics (CFE-CMStatistics)"
+  type: "conference"
+  venue: "CFE-CMStatistics"
+  location: "Iasi, Romania"
+  date: "2018-12"

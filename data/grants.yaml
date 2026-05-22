@@ -1,26 +1,70 @@
 # ── Research funding & grants ─────────────────────────────────────────────────
 # role options: "PI" | "Co-PI" | "Co-I" | "Researcher"
-# List in reverse chronological order by period_start.
+# Reverse chronological by period_start.
 
-- title: "Example Grant Title"
+- title: "VENI Grant"
   funder: "Dutch Research Council"
-  funder_short: "NWO"             # abbreviation shown in compact views
-  amount: "250,000"
+  funder_short: "NWO"
+  amount: "320,000"
   currency: "EUR"
   role: "PI"
-  period_start: 2023
-  period_end: 2026                # null if ongoing
-  description: >
-    Brief description of the project aims and research questions.
-  url: ""                         # link to project page or funder record
+  period_start: 2026
+  period_end: null
+  description: ""
+  url: ""
 
-# - title: "Another Grant"
-#   funder: "European Research Council"
-#   funder_short: "ERC"
-#   amount: "1,500,000"
-#   currency: "EUR"
-#   role: "PI"
-#   period_start: 2021
-#   period_end: 2026
-#   description: ""
-#   url: ""
+- title: "Starter Grant (Stimuleringssubsidie Bedrijfswetenschappen)"
+  funder: "Dutch Research Council"
+  funder_short: "NWO"
+  amount: "336,000"
+  currency: "EUR"
+  role: "PI"
+  period_start: 2025
+  period_end: null
+  description: >
+    Co-funded the Inequality Dynamics PhD project and a departmental research fund of over €70,000.
+  url: ""
+
+- title: "Research Support Grant"
+  funder: "World Bank"
+  funder_short: "World Bank"
+  amount: "100,000"
+  currency: "USD"
+  role: "Co-I"
+  period_start: 2023
+  period_end: null
+  description: ""
+  url: ""
+
+- title: "Knowledge for Change Grant"
+  funder: "World Bank"
+  funder_short: "World Bank"
+  amount: "200,000"
+  currency: "USD"
+  role: "Co-I"
+  period_start: 2021
+  period_end: 2023
+  description: ""
+  url: ""
+
+- title: "David Walton Distinguished Doctoral Scholarship"
+  funder: ""
+  funder_short: ""
+  amount: "40,000"
+  currency: "USD"
+  role: "Researcher"
+  period_start: 2020
+  period_end: 2022
+  description: ""
+  url: ""
+
+- title: "ESRC Scholarship (MPhil + DPhil)"
+  funder: "Economic and Social Research Council"
+  funder_short: "ESRC"
+  amount: "150,000"
+  currency: "GBP"
+  role: "Researcher"
+  period_start: 2015
+  period_end: 2022
+  description: ""
+  url: ""

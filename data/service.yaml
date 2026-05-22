@@ -1,19 +1,65 @@
 # ── Departmental & institutional service ──────────────────────────────────────
 # type options: "committee" | "hiring" | "admin" | "outreach"
-# Set period_end to null for ongoing roles.
 
-- role: "Member, Curriculum Committee"
-  institution: "Maastricht University"
-  department: "School of Business and Economics"
+- role: "Assistant Project Lead, CEPR Research Policy Network on Ageing and Longevity"
+  institution: "Centre for Economic Policy Research"
+  department: ""
   type: "committee"
-  period_start: 2022
+  period_start: 2025
+  period_end: null
+  description: >
+    Helped set up the network and select members. Organised inaugural internal event
+    (with OECD) in Athens. Organised large RPN conference at London Business School
+    (summer 2025). Hosts regular RPN webinar series.
+
+- role: "Co-founder, Inequality Dynamics Research Theme"
+  institution: "Maastricht University"
+  department: "MILE, School of Business and Economics"
+  type: "committee"
+  period_start: 2024
+  period_end: null
+  description: >
+    Co-founded with Michalis (MILE). The theme includes three PhD positions and a
+    research fund of over €70,000.
+
+- role: "Grant Reviewer"
+  institution: "Social Sciences and Humanities Research Council of Canada"
+  department: ""
+  type: "committee"
+  period_start: 2024
   period_end: null
   description: ""
 
-# - role: "Member, Hiring Committee"
-#   institution: "Maastricht University"
-#   department: "..."
-#   type: "hiring"
-#   period_start: 2023
-#   period_end: 2024
-#   description: ""
+- role: "Second Reader, BSc Thesis Groups"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  type: "admin"
+  period_start: 2023
+  period_end: null
+  description: >
+    Second reader for supervisee groups of Stefan Terstiege and Lex Borghans
+    (~15 students).
+
+- role: "Grading, International Classroom Admissions Essays"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  type: "admin"
+  period_start: 2023
+  period_end: null
+  description: ""
+
+- role: "Honors Colloquium Talk"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  type: "outreach"
+  period_start: 2024
+  period_end: null
+  description: "Research dissemination talk for students."
+
+- role: "Overleaf Workshop for Students"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  type: "outreach"
+  period_start: 2024
+  period_end: null
+  description: ""
