@@ -2,6 +2,12 @@
 # Keep to ~6 most recent items. date format: YYYY-MM-DD or YYYY-MM.
 # Markdown links and *italic* / **bold** are supported in the text field.
 
+- date: "2026-05"
+  text: >
+    Paper "Reframing the Epidemiological Transition – Increasing Returns to Tackling
+    Ageing-Related Diseases" conditionally accepted at *Nature Aging* (with David Bloom,
+    Naomi Lee, Peter Piot, and Andrew Scott).
+
 - date: "2026-02"
   text: >
     New paper "Qualitative Analysis with Large-N: A New Method with an Application to
@@ -9,22 +15,12 @@
 
 - date: "2026-01"
   text: >
-    Awarded NWO VENI Grant (€320,000) from the Dutch Research Council.
-
-- date: "2026-01"
-  text: >
     Special issue introduction "The Economics of Ageing and Longevity" published in
     *Journal of the Economics of Ageing* (with David Canning and Johanna Wallenius).
 
-- date: "2025-12"
+- date: "2026-07"
   text: >
-    Paper "Reframing the Epidemiological Transition – Increasing Returns to Tackling
-    Ageing-Related Diseases" conditionally accepted at *Nature Aging* (with David Bloom,
-    Naomi Lee, Peter Piot, and Andrew Scott).
-
-- date: "2025-06"
-  text: >
-    Awarded GSBE Fellowship, Maastricht University.
+    Awarded NWO VENI Grant from the Dutch Research Council.
 
 - date: "2025-01"
   text: >
