@@ -31,6 +31,13 @@
   url: "https://open.spotify.com/episode/687QU9HV17QdkMygIvMsQC"
   description: "Discussion of the working paper that won the Peter Sinclair Prize at the 9th MMF Society PhD Conference."
 
+- title: "Lessons from the CEPR Conference on the Economics of Ageing and Longevity"
+  type: "media"
+  outlet: "CEPR (YouTube)"
+  date: "2025-07"
+  url: "https://www.youtube.com/watch?v=n1YKXThXA7k"
+  description: "Video discussion of key themes and lessons from the CEPR Conference on the Economics of Ageing and Longevity, London Business School, 2025 (which Julian co-organised)."
+
 - title: "iQual: Scaling Interpretative Qualitative Analysis with NLP/LLMs"
   type: "media"
   outlet: "Python Package (World Bank GitHub)"
