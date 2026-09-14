@@ -1,7 +1,10 @@
 # ── Conference & workshop organisation ───────────────────────────────────────
+# ongoing: true → CV shows "Since <year>" instead of the year.
+# cv_with: co-organiser names shown in parentheses on the CV PDF.
 
 - conference: "CEPR Conference on the Economics of Ageing and Longevity"
   role: "Co-organiser"
+  cv_with: "D. Canning & J. Wallenius"
   year: 2025
   location: "London Business School, London, UK"
   url: ""
@@ -9,13 +12,16 @@
 
 - conference: "MILE Seminar Series, Maastricht University"
   role: "Co-organiser"
+  cv_with: "M. Moatsos"
   year: 2024
+  ongoing: true
   location: "Maastricht, Netherlands"
   url: ""
   description: ""
 
 - conference: "MORSE Conference (track)"
   role: "Co-organiser"
+  cv_with: "G. Piccillo"
   year: 2024
   location: ""
   url: ""

@@ -1,14 +1,18 @@
 # ── Education ─────────────────────────────────────────────────────────────────
-# Reverse chronological.
+# Reverse chronological. year_start/year give the range shown on the CV PDF;
+# cv_note is an extra line on the CV (e.g. supervisors).
 
 - degree: "DPhil in Economics"
   institution: "Nuffield College, University of Oxford"
+  year_start: 2017
   year: 2022
   thesis: ""
   supervisor: "Prof Martin Ellison (Oxford) and Prof Stephen Hansen (Imperial College). Examiners: Prof Michael McMahon (Oxford) and Prof Roger Farmer (UCLA & Warwick)."
+  cv_note: "Supervisors: M. Ellison (Oxford) and S. Hansen (Imperial College London)"
 
 - degree: "MPhil in Economics"
   institution: "Nuffield College, University of Oxford"
+  year_start: 2015
   year: 2017
   thesis: ""
   supervisor: ""
@@ -16,6 +20,7 @@
 
 - degree: "BA in Philosophy, Politics and Economics"
   institution: "Hertford College, University of Oxford"
+  year_start: 2012
   year: 2015
   thesis: ""
   supervisor: ""

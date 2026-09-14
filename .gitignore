@@ -8,3 +8,7 @@ __pycache__/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Generated CV (built from data/*.yaml by scripts/build_cv.py)
+_cv/
+assets/cv.pdf

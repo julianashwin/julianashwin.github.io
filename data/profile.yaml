@@ -5,6 +5,9 @@ name: "Julian Ashwin"
 position: "Assistant Professor"
 institution: "Maastricht University"
 department: "School of Business and Economics"
+department_full: "Department of Macro, International and Labour Economics (MILE)"
+address: "Tongersestraat 53, 6211 LM Maastricht, Netherlands"
+website: "https://julianashwin.com"
 email: "julian.ashwin@maastrichtuniversity.nl"   # update if different
 
 # Social / academic links — leave blank ("") to hide
@@ -32,3 +35,8 @@ research_interests:
 #  - "Interest 1"
 #  - "Interest 2"
 #  - "Interest 3"
+
+# Skills — shown on the CV PDF
+skills:
+  programming: "R, Julia (advanced); Matlab, Python (intermediate)"
+  languages: "English (native), German (advanced), Dutch (intermediate)"

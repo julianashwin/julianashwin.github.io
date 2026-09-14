@@ -32,6 +32,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Build CV PDF from data/*.yaml
+        run: python scripts/build_cv.py
+
       - name: Render site
         run: quarto render --no-cache
 

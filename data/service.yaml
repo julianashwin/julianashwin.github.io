@@ -1,7 +1,10 @@
 # ── Departmental & institutional service ──────────────────────────────────────
 # type options: "committee" | "hiring" | "admin" | "outreach"
+# cv_section controls where an entry appears on the generated CV PDF:
+#   "editorial" | "refereeing" | "departmental" | "none" (website only)
 
 - role: "Assistant Project Lead, CEPR Research Policy Network on Ageing and Longevity"
+  cv_section: "editorial"
   institution: "Centre for Economic Policy Research"
   department: ""
   type: "committee"
@@ -13,16 +16,29 @@
     (summer 2025). Hosts regular RPN webinar series.
 
 - role: "Co-founder, Inequality Dynamics Research Theme"
+  cv_section: "departmental"
+  cv_label: "Co-founder, Inequality Dynamics research theme, MILE (with M. Moatsos) — 3 PhD positions and EUR 70,000+ research fund"
   institution: "Maastricht University"
   department: "MILE, School of Business and Economics"
   type: "committee"
   period_start: 2024
   period_end: null
   description: >
-    Co-founded with Michalis (MILE). The theme includes three PhD positions and a
+    Co-founded with Michalis Moatsos (MILE). The theme includes three PhD positions and a
     research fund of over €70,000.
 
+- role: "UTQ/BKO (University Teaching Qualification), completed"
+  cv_section: "departmental"
+  institution: "Maastricht University"
+  department: "School of Business and Economics"
+  type: "admin"
+  period_start: 2025
+  period_end: 2025
+  description: ""
+
 - role: "Grant Reviewer"
+  cv_section: "refereeing"
+  cv_label: "Social Sciences and Humanities Research Council of Canada (SSHRC)"
   institution: "Social Sciences and Humanities Research Council of Canada"
   department: ""
   type: "committee"

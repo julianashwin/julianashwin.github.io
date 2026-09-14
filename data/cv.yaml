@@ -1,0 +1,14 @@
+# ── CV-only content ───────────────────────────────────────────────────────────
+# Prose blocks that appear only on the generated CV PDF (scripts/build_cv.py).
+# Everything else on the CV is drawn from the other data/*.yaml files.
+
+# Line shown under the Teaching heading, before the course list.
+teaching_evaluations: >
+  average evaluation: 8.4/10 (coordinator), 9.3/10 (tutor)
+
+# Supervision summary paragraph (Teaching section).
+supervision: >
+  2 PhD students (1st supervisor, 2025–26 onwards); approx. 22 BSc theses
+  (1st reader, 2023–25, 89% submission rate); 4 MaRBLe theses (2024–25,
+  1 SBE prize winner); 3 MSc theses (2024–25). EIT: research lead on
+  5 projects, managing 3 post-docs and 9 pre-docs.

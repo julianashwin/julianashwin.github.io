@@ -6,9 +6,9 @@ This is the source for [julianashwin.com](https://julianashwin.com), built with 
 
 ## How the site works
 
-All content is driven by **YAML data files** in the `data/` folder. You edit a YAML file, commit and push, and the site rebuilds automatically (usually within 1–2 minutes via GitHub Actions).
+All content is driven by **YAML data files** in the `data/` folder. You edit a YAML file, commit and push, and the site **and the CV PDF** rebuild automatically (usually within 1–2 minutes via GitHub Actions). The YAML files are the single source of truth — there is no separate CV to maintain.
 
-You never need to touch the `.qmd` page files or `scripts/helpers.py` unless you want to change layout or add a new section type.
+You never need to touch the `.qmd` page files, `scripts/helpers.py`, or `scripts/build_cv.py` unless you want to change layout or add a new section type.
 
 ---
 
@@ -16,27 +16,35 @@ You never need to touch the `.qmd` page files or `scripts/helpers.py` unless you
 
 ```
 data/
-  profile.yaml          ← bio, contact links, research interests
-  news.yaml             ← home-page news items (keep ~5–6 most recent)
-  publications.yaml     ← peer-reviewed publications
-  working_papers.yaml   ← working papers and preprints
-  grants.yaml           ← grants and scholarships
-  teaching.yaml         ← courses taught
-  presentations.yaml    ← conference and seminar presentations
-  editorial.yaml        ← editorial roles and refereeing
-  service.yaml          ← departmental/institutional service
-  conference_org.yaml   ← conferences and workshops organised
-  dissemination.yaml    ← podcasts, blogs, policy pieces
-  appointments.yaml     ← employment history (used in CV page)
-  education.yaml        ← degrees (used in CV page)
+  profile.yaml            ← bio, contact links, address, skills
+  news.yaml               ← home-page news items (keep ~5–6 most recent)
+  publications.yaml       ← peer-reviewed publications
+  working_papers.yaml     ← working papers and preprints
+  policy_publications.yaml ← policy pieces (CV only)
+  grants.yaml             ← grants and scholarships
+  prizes.yaml             ← prizes and awards
+  teaching.yaml           ← courses taught
+  presentations.yaml      ← conference and seminar presentations
+  editorial.yaml          ← editorial roles and refereeing
+  service.yaml            ← departmental/institutional service
+  conference_org.yaml     ← conferences and workshops organised
+  dissemination.yaml      ← podcasts, blogs, policy pieces
+  appointments.yaml       ← employment history
+  education.yaml          ← degrees
+  cv.yaml                 ← CV-only prose (supervision summary, evaluation averages)
 
 assets/
-  photo.jpg             ← profile photo (replace to update)
-  cv.pdf                ← compiled CV PDF (see below)
+  photo.jpg               ← profile photo (replace to update)
+  cv.pdf                  ← GENERATED — never edit; built by scripts/build_cv.py
 
-scripts/helpers.py      ← rendering logic (rarely needs editing)
-_quarto.yml             ← site config: navigation, theme, metadata
+scripts/helpers.py        ← website rendering logic (rarely needs editing)
+scripts/build_cv.py       ← generates assets/cv.pdf from data/*.yaml
+_quarto.yml               ← site config: navigation, theme, metadata
 ```
+
+Several data files support optional `cv_*` fields (`cv_section`, `cv_label`, `cv_note`,
+`cv_role`, `cv_with`) that control how an entry appears on the CV PDF — each file's
+header comment documents the ones it uses.
 
 ---
 
@@ -125,33 +133,21 @@ GitHub Actions rebuilds and deploys the site automatically. Check the **Actions*
 
 ---
 
-## Updating the CV PDF
+## The CV PDF
 
-The LaTeX source lives in the companion content repository:
+`assets/cv.pdf` is **generated automatically** from the same `data/*.yaml` files that
+drive the website — there is nothing separate to update. Every push to `main` rebuilds
+it in CI (via Typst, which ships inside Quarto; no LaTeX needed), so adding a paper to
+`publications.yaml` updates the website *and* the CV in one edit.
 
-```
-website_etc/CV/cv_julian_ashwin.tex
-```
-
-To update and publish:
+To preview the PDF locally:
 
 ```bash
-# 1. Edit the .tex file, then compile:
-cd ~/Documents/GitHub/website_etc/CV
-pdflatex cv_julian_ashwin.tex
-pdflatex cv_julian_ashwin.tex   # second pass for correct hyperlinks
-
-# 2. Copy the PDF into the website assets folder:
-cp cv_julian_ashwin.pdf ~/Documents/GitHub/julianashwin.github.io/assets/cv.pdf
-
-# 3. Commit and push:
-cd ~/Documents/GitHub/julianashwin.github.io
-git add assets/cv.pdf
-git commit -m "Update CV PDF"
-git push
+make cv        # writes assets/cv.pdf (and the Typst source to _cv/cv.typ)
 ```
 
-The "CV (PDF)" link on the home page will point to the new file immediately after deployment.
+The CV's header date is set automatically to the month it is built. The old LaTeX
+source (`website_etc/CV/cv_julian_ashwin.tex`) is retired and kept only as an archive.
 
 ---
 

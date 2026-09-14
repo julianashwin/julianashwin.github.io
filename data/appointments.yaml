@@ -1,5 +1,13 @@
 # ── Academic positions & appointments ─────────────────────────────────────────
 # Reverse chronological (most recent first). period_end: null = present.
+#
+# cv_section controls where an entry appears on the generated CV PDF:
+#   "employment"  → main Employment block
+#   "affiliation" → "Other appointments and affiliations" sub-block
+#   "other"       → "Other Employment" section
+#   "none"        → website only, omitted from the CV PDF
+# cv_note: short suffix (usually location) appended to the CV line.
+# cv_label: full override of the CV line text (period still shown).
 
 - title: "Assistant Professor"
   institution: "Maastricht University"
@@ -7,13 +15,24 @@
   period_start: 2023
   period_end: null
   description: ""
+  cv_section: "employment"
+
+- title: "Assistant RPN Leader"
+  institution: "CEPR Research Policy Network on the Economics of Ageing and Longevity"
+  department: ""
+  period_start: 2025
+  period_end: null
+  description: ""
+  cv_section: "affiliation"
 
 - title: "Research Fellow"
   institution: "Ellison Institute of Technology"
+  cv_note: "Oxford, UK"
   department: ""
   period_start: 2024
   period_end: null
   description: "Oxford, UK."
+  cv_section: "affiliation"
 
 - title: "GSBE Fellow"
   institution: "Maastricht University"
@@ -21,41 +40,52 @@
   period_start: 2025
   period_end: null
   description: ""
+  cv_section: "none"   # listed under Grants & Fellowships on the CV
 
 - title: "New Map of Life Fellow"
   institution: "Stanford Center on Longevity, Stanford University"
+  cv_note: "USA"
   department: ""
   period_start: 2022
   period_end: 2024
   description: "Stanford, CA, USA."
+  cv_section: "employment"
 
 - title: "Academic Consultant"
   institution: "World Bank"
   department: "Development Research Group"
+  cv_note: "Washington DC"
   period_start: 2021
   period_end: 2025
   description: "Washington DC, USA."
+  cv_section: "affiliation"
 
 - title: "Postdoctoral Researcher"
   institution: "London Business School"
+  cv_note: "UK"
   department: "Department of Economics"
   period_start: 2021
   period_end: 2023
   description: "London, UK."
+  cv_section: "employment"
 
 - title: "PhD Trainee"
   institution: "European Central Bank"
+  cv_note: "Frankfurt"
   department: "DG Economics (Business Cycle Analysis)"
   period_start: 2020
   period_end: 2021
   description: "Frankfurt, Germany."
+  cv_section: "other"
 
 - title: "Summer Associate"
   institution: "Goldman Sachs"
+  cv_note: "London"
   department: "Global Markets"
   period_start: 2021
   period_end: 2021
   description: "London, UK."
+  cv_section: "other"
 
 - title: "Research Assistant"
   institution: "University of Oxford"
@@ -63,6 +93,8 @@
   period_start: 2020
   period_end: 2021
   description: "Research assistant to Guido Ascari and Sophocles Mavroeidis."
+  cv_label: "Research Assistant (G. Ascari & S. Mavroeidis), University of Oxford"
+  cv_section: "other"
 
 - title: "Instructor"
   institution: "ViaX"
@@ -70,13 +102,16 @@
   period_start: 2019
   period_end: 2021
   description: "Short research projects in Economics."
+  cv_section: "none"
 
 - title: "Policy Advisor"
   institution: "Cabinet Office"
+  cv_note: "London"
   department: "Open Innovation Team"
   period_start: 2018
   period_end: 2018
   description: "London, UK."
+  cv_section: "other"
 
 - title: "Research Assistant"
   institution: "Smith School for Enterprise and the Environment, University of Oxford"
@@ -84,6 +119,7 @@
   period_start: 2014
   period_end: 2014
   description: ""
+  cv_section: "none"
 
 - title: "Research Assistant"
   institution: "Tax Administration Research Centre, University of Exeter"
@@ -91,3 +127,4 @@
   period_start: 2014
   period_end: 2014
   description: ""
+  cv_section: "none"

@@ -1,6 +1,7 @@
 # ── Teaching ──────────────────────────────────────────────────────────────────
 # level options: "undergraduate" | "masters" | "phd"
 # role options: "Lecturer" | "Co-Lecturer" | "Tutor" | "Teaching Assistant"
+# cv_role: label used on the generated CV PDF (e.g. "coordinator"); optional.
 
 # ── Maastricht University ─────────────────────────────────────────────────────
 
@@ -9,6 +10,7 @@
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Lecturer"
+  cv_role: "coordinator"
   description: ""
   years:
     - "2023–24"
@@ -19,6 +21,7 @@
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Lecturer"
+  cv_role: "coordinator"
   description: ""
   years:
     - "2023–24"
@@ -29,6 +32,7 @@
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Co-Lecturer"
+  cv_role: "co-coordinator (with K. Bosmans)"
   description: "Co-taught with Kristof Bosmans."
   years:
     - "2023–24"
@@ -40,6 +44,7 @@
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Co-Lecturer"
+  cv_role: "co-coordinator (with M. Sanders)"
   description: "Co-taught with Mark Sanders. UCM (University College Maastricht) course."
   years:
     - "2023–24"
@@ -50,6 +55,7 @@
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Lecturer"
+  cv_role: "coordinator"
   description: "UCM (University College Maastricht) course."
   years:
     - "2025–26"
@@ -59,6 +65,7 @@
   level: "undergraduate"
   institution: "Maastricht University"
   role: "Lecturer"
+  cv_role: "coordinator"
   description: ""
   years:
     - "2023–24"

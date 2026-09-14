@@ -1,6 +1,8 @@
-# ── Research funding & grants ─────────────────────────────────────────────────
+# ── Research funding, grants & scholarships ───────────────────────────────────
 # role options: "PI" | "Co-PI" | "Co-I" | "Researcher"
-# Reverse chronological by period_start.
+# Reverse chronological by period_start. period_end: null = present/open-ended.
+# approx: true          → CV shows "approx." before the amount
+# amount_note: "p.a."   → appended after the amount (e.g. per-annum fellowships)
 
 - title: "VENI Grant"
   funder: "Dutch Research Council"
@@ -9,7 +11,7 @@
   currency: "EUR"
   role: "PI"
   period_start: 2026
-  period_end: null
+  period_end: 2029
   description: ""
   url: ""
 
@@ -20,9 +22,22 @@
   currency: "EUR"
   role: "PI"
   period_start: 2025
-  period_end: null
+  period_end: 2030
   description: >
     Co-funded the Inequality Dynamics PhD project and a departmental research fund of over €70,000.
+  url: ""
+
+- title: "GSBE Fellowship"
+  funder: "Maastricht University"
+  funder_short: ""
+  amount: "2,500"
+  currency: "EUR"
+  amount_note: "p.a."
+  approx: true
+  role: ""
+  period_start: 2025
+  period_end: null
+  description: ""
   url: ""
 
 - title: "Research Support Grant"
@@ -32,7 +47,7 @@
   currency: "USD"
   role: "Co-I"
   period_start: 2023
-  period_end: null
+  period_end: 2025
   description: ""
   url: ""
 
@@ -51,10 +66,11 @@
   funder: ""
   funder_short: ""
   amount: "40,000"
-  currency: "USD"
-  role: "Researcher"
+  currency: "GBP"
+  approx: true
+  role: ""
   period_start: 2020
-  period_end: 2022
+  period_end: 2021
   description: ""
   url: ""
 
@@ -63,8 +79,20 @@
   funder_short: "ESRC"
   amount: "150,000"
   currency: "GBP"
-  role: "Researcher"
+  approx: true
+  role: ""
   period_start: 2015
-  period_end: 2022
+  period_end: 2019
+  description: ""
+  url: ""
+
+- title: "Hertford College Academic Scholarship"
+  funder: "University of Oxford"
+  funder_short: ""
+  amount: "1,500"
+  currency: "GBP"
+  role: ""
+  period_start: 2013
+  period_end: 2015
   description: ""
   url: ""
