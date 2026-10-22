@@ -26,6 +26,15 @@
   cv_section: "affiliation"
 
 - title: "Research Fellow"
+  institution: "Netspar (Network for Studies on Pensions, Aging and Retirement)"
+  cv_note: "Netherlands"
+  department: ""
+  period_start: 2025
+  period_end: null
+  description: ""
+  cv_section: "affiliation"
+
+- title: "Research Fellow"
   institution: "Ellison Institute of Technology"
   cv_note: "Oxford, UK"
   department: ""

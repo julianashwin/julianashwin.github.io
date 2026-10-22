@@ -205,6 +205,8 @@ def publication_body(p):
     body += emph(with_period(esc(p["title"]))) + " "
     if p.get("journal"):
         j = esc(p["journal"])
+        if p.get("volume"):
+            j += f", {esc(str(p['volume']))}" + (f"({esc(str(p['issue']))})" if p.get("issue") else "")
         if p.get("pages"):
             j += f", pp. {esc(p['pages'])}"
         body += emph(j + ".")
