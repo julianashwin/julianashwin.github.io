@@ -20,7 +20,7 @@
 - title: "The Economic Consequences of Living Longer"
   type: "podcast"
   outlet: "CEPR VoxTalks"
-  date: "2024-06"
+  date: "2026-02"
   url: "https://cepr.org/multimedia/economic-consequences-living-longer"
   description: ""
 
@@ -37,6 +37,27 @@
   date: "2025-07"
   url: "https://www.youtube.com/watch?v=n1YKXThXA7k"
   description: "Video discussion of key themes and lessons from the CEPR Conference on the Economics of Ageing and Longevity, London Business School, 2025 (which Julian co-organised)."
+
+- title: "Is AI Qualitative Coding Biased? What a 2025 Study Found"
+  type: "media"
+  outlet: "Qualitati (blog)"
+  date: "2026-07"
+  url: "https://qualitati.com/blog/is-ai-qualitative-coding-biased-2025"
+  description: "Discusses the Sociological Methods and Research paper on bias in LLM-based qualitative analysis."
+
+- title: "Bias in AI-Assisted Qualitative Analysis: What It Looks Like, and How to Catch It"
+  type: "media"
+  outlet: "Skimle (blog)"
+  date: "2026-06"
+  url: "https://skimle.com/blog/bias-in-ai-assisted-qualitative-analysis"
+  description: "By Henri Schildt and Olli Salo. Cites the Sociological Methods and Research paper on bias in LLM-based qualitative analysis."
+
+- title: "Using Newspapers to Monitor Growth in Real Time"
+  type: "media"
+  outlet: "Macro Hive"
+  date: "2021-12"
+  url: "https://macrohive.com/deep-dives/using-newspapers-to-monitor-growth-in-real-time"
+  description: "Discusses the ECB working paper on nowcasting euro area GDP with news sentiment."
 
 - title: "iQual: Scaling Interpretative Qualitative Analysis with NLP/LLMs"
   type: "media"
@@ -58,6 +79,13 @@
   date: "2024-06"
   url: "https://www.maastrichtuniversity.nl/news/why-more-we-tackle-ageing-more-it-matters"
   description: ""
+
+- title: "Researcher Spotlight: Julian Ashwin"
+  type: "blog"
+  outlet: "Stanford Center on Longevity"
+  date: "2023-02"
+  url: "https://longevity.stanford.edu/researcher-spotlight-julian-ashwin/"
+  description: "Profile as a New Map of Life Fellow."
 
 - title: "Qualitative Analysis with Representative Samples"
   type: "blog"

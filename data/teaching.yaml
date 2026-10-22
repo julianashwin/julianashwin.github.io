@@ -87,6 +87,9 @@
   institution: "Heidelberg University"
   role: "Lecturer"
   description: "Short PhD course on NLP methods for economists."
+  links:
+    - label: "Code and slides"
+      url: "https://github.com/julianashwin/intro-text-analysis-econ"
   years:
     - "2022"
 
@@ -96,6 +99,11 @@
   institution: "Oriel College, University of Oxford"
   role: "Tutor"
   description: "Second-year BA Economics tutorials."
+  links:
+    - label: "Reading list"
+      url: "https://drive.google.com/open?id=19yeIzSdmTjivaRYZJXD_2uYo08KbsUlJ7TTO2HThCXA"
+    - label: "Handouts"
+      url: "https://drive.google.com/open?id=18KHglwkvgfdM6j8WGf9u5iXifJ_mH3c6"
   years:
     - "2019–20"
     - "2020–21"
@@ -106,6 +114,9 @@
   institution: "Oriel and University College, University of Oxford"
   role: "Tutor"
   description: "Third-year BA Economics tutorials."
+  links:
+    - label: "Handouts"
+      url: "https://drive.google.com/open?id=1qKdz5-imkfcrx3-5ukhwRkx8F8SOpQpJ"
   years:
     - "2017–18"
     - "2018–19"
@@ -128,6 +139,9 @@
   institution: "University College, University of Oxford"
   role: "Tutor"
   description: "Third-year BA Economics tutorials."
+  links:
+    - label: "Tutorial handouts"
+      url: "https://drive.google.com/open?id=15UjSShWv9EuhyywLV0fAjkB5jw8OBkiH"
   years:
     - "2017–18"
     - "2018–19"

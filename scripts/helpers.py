@@ -113,7 +113,7 @@ def render_publications(pubs: list) -> str:
 
         doi_url = f"https://doi.org/{p['doi']}" if p.get("doi") else ""
         media_kwargs = {m["label"]: m["url"] for m in p.get("media", []) if m.get("url")}
-        links = _links(PDF=p.get("pdf"), DOI=doi_url, Link=p.get("url"), **media_kwargs)
+        links = _links(PDF=p.get("pdf"), DOI=doi_url, Code=p.get("code"), Link=p.get("url"), **media_kwargs)
 
         abstract = ""
         if p.get("abstract"):
@@ -151,7 +151,8 @@ def render_working_papers(wps: list) -> str:
             p["ssrn"] if p.get("ssrn", "").startswith("http")
             else (f"https://ssrn.com/abstract={p['ssrn']}" if p.get("ssrn") else "")
         )
-        links = _links(PDF=p.get("pdf"), SSRN=ssrn_url, Link=p.get("url"))
+        media_kwargs = {m["label"]: m["url"] for m in p.get("media", []) if m.get("url")}
+        links = _links(PDF=p.get("pdf"), SSRN=ssrn_url, Link=p.get("url"), **media_kwargs)
         abstract = ""
         if p.get("abstract"):
             abstract = (
@@ -213,6 +214,7 @@ def render_teaching(courses: list) -> str:
         code = f" <span style='color:var(--text-muted)'>({_esc(c['code'])})</span>" if c.get("code") else ""
         years = ", ".join(c.get("years", []))
         desc = f'<div style="font-size:0.9em">{_esc(c["description"])}</div>' if c.get("description") else ""
+        desc += _links(**{l["label"]: l["url"] for l in c.get("links", []) if l.get("url")})
         rows.append(
             f'<div class="pub-entry">'
             f'<div><strong>{_esc(c["course"])}</strong>{code} &nbsp;·&nbsp; {_esc(c.get("role",""))}</div>'

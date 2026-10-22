@@ -1,7 +1,7 @@
 # ── Peer-reviewed publications ────────────────────────────────────────────────
 # Sorted reverse-chronologically. Authors: bold = Julian Ashwin (handled by _authors()).
 
-- title: "Reframing the Epidemiological Transition – Increasing Returns to Tackling Ageing-Related Diseases"
+- title: "Reframing the Epidemiological Transition as Increasing Returns to Tackling Aging-Related Diseases"
   authors:
     - "Julian Ashwin"
     - "David Bloom"
@@ -9,15 +9,16 @@
     - "Peter Piot"
     - "Andrew Scott"
   year: 2026
-  journal: "Nature Aging (forthcoming)"
-  doi: ""
+  journal: "Nature Aging"
+  doi: "10.1038/s43587-026-01210-2"
   media:
+    - label: "News & Views"
+      url: "https://www.nature.com/articles/s43587-026-01218-8"
     - label: "SBE Blog"
       url: "https://www.maastrichtuniversity.nl/news/why-more-we-tackle-ageing-more-it-matters"
   tags:
     - "ageing"
     - "longevity"
-    - "forthcoming"
 
 - title: "Qualitative Analysis with Large-N: A New Method with an Application to Aspirations in Bangladesh"
   authors:
@@ -32,6 +33,8 @@
   journal: "The Economic Journal"
   doi: "10.1093/ej/ueag005"
   media:
+    - label: "WB Working Paper"
+      url: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099759305162210822/idu0a357362e00b6004c580966006b1c2f2e3996"
     - label: "VoxDev"
       url: "https://voxdev.org/topic/methods-measurement/qualitative-interviews-scale-new-method-application-aspirations"
     - label: "World Bank Blog"
@@ -62,6 +65,13 @@
   year: 2025
   journal: "Journal of Monetary Economics"
   doi: "10.1016/j.jmoneco.2024.103723"
+  media:
+    - label: "NBER WP"
+      url: "https://www.nber.org/papers/w32807"
+    - label: "Slides"
+      url: "https://users.ox.ac.uk/~exet2581/NNL_NLE_slides.pdf"
+    - label: "Central Banking"
+      url: "https://www.centralbanking.com/node/7962065"
   tags:
     - "macroeconomics"
     - "machine-learning"
@@ -75,8 +85,14 @@
   journal: "Sociological Methods and Research"
   doi: "10.1177/00491241251338246"
   media:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2309.17147"
     - label: "EADi Podcast"
       url: "https://www.eadi.org/news-2/new-innovating-methods-podcast-out-2"
+    - label: "Skimle"
+      url: "https://skimle.com/blog/bias-in-ai-assisted-qualitative-analysis"
+    - label: "Qualitati"
+      url: "https://qualitati.com/blog/is-ai-qualitative-coding-biased-2025"
   tags:
     - "nlp"
     - "llm"
@@ -85,12 +101,16 @@
   authors:
     - "Julian Ashwin"
     - "Andrew Scott"
-  year: 2025
+  year: 2026
   journal: "Journal of the Royal Statistical Society: Series A"
+  volume: 189
+  issue: 2
+  pages: "834–850"
   doi: "10.1093/jrsssa/qnaf026"
+  code: "https://github.com/julianashwin/MortalityEstimation"
   media:
-    - label: "VoxTalks"
-      url: "https://cepr.org/multimedia/economic-consequences-living-longer"
+    - label: "SSRN"
+      url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4924259"
   tags:
     - "ageing"
     - "longevity"
@@ -104,6 +124,12 @@
   year: 2024
   journal: "Journal of Applied Econometrics"
   doi: "10.1002/jae.3057"
+  code: "https://github.com/julianashwin/NowcastingEuroNewsJAE"
+  media:
+    - label: "ECB WP"
+      url: "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2616~58494f90b7.en.pdf"
+    - label: "Macro Hive"
+      url: "https://macrohive.com/deep-dives/using-newspapers-to-monitor-growth-in-real-time"
   tags:
     - "nowcasting"
     - "nlp"
@@ -115,6 +141,7 @@
   year: 2024
   journal: "Journal of Financial Markets"
   doi: "10.1016/j.finmar.2024.100896"
+  code: "https://github.com/julianashwin/Media_volatility"
   tags:
     - "finance"
     - "nlp"
@@ -128,6 +155,10 @@
   year: 2023
   journal: "Cold Spring Harbor Perspectives in Medicine"
   doi: "10.1101/cshperspect.a041202"
+  code: "https://github.com/julianashwin/international-gains-to-healthy-longevity"
+  media:
+    - label: "Working paper"
+      url: "https://drive.google.com/file/d/1dkSCIHLqiYOxI4fhXzaWKgCehCmOg69t/view?usp=sharing"
   tags:
     - "ageing"
     - "longevity"
@@ -155,6 +186,7 @@
   journal: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
   pages: "8162–8188"
   doi: "10.18653/v1/2021.emnlp-main.644"
+  code: "https://github.com/julianashwin/BTR.jl"
   tags:
     - "nlp"
     - "causal-inference"

@@ -2,6 +2,12 @@
 # Keep to ~6 most recent items. date format: YYYY-MM-DD or YYYY-MM.
 # Markdown links and *italic* / **bold** are supported in the text field.
 
+- date: "2026-09"
+  text: >
+    Paper "[Reframing the Epidemiological Transition as Increasing Returns to Tackling
+    Aging-Related Diseases](https://doi.org/10.1038/s43587-026-01210-2)" published in
+    *Nature Aging* (with David Bloom, Naomi Lee, Peter Piot, and Andrew Scott).
+
 - date: "2026-05"
   text: >
     Paper "Reframing the Epidemiological Transition – Increasing Returns to Tackling

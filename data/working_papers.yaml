@@ -6,11 +6,14 @@
     - "Julian Ashwin"
     - "Martin Ellison"
     - "Andrew Scott"
-  year: null
+  year: 2026
   status: "working-paper"
   ssrn: ""
-  url: ""
+  url: "https://www.aeaweb.org/conference/2026/program/paper/4aR9nAyk"
   pdf: ""
+  media:
+    - label: "VoxTalks"
+      url: "https://cepr.org/multimedia/economic-consequences-living-longer"
   tags:
     - "ageing"
     - "longevity"
@@ -20,12 +23,11 @@
     - "Julian Ashwin"
   year: 2022
   status: "working-paper"
-  ssrn: ""
+  ssrn: "4291983"
   url: ""
   pdf: ""
   abstract: >
     Winner of the Peter Sinclair Prize (1st place) at the 9th MMF Society PhD Conference, 2022.
-    Currently shelved — not being revised or submitted.
   cv_note: "Winner of the Peter Sinclair Prize (1st place), 9th MMF Society PhD Conference."
   tags:
     - "central-banking"

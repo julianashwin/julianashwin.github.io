@@ -5,7 +5,6 @@ project:
 website:
   title: "Julian Ashwin"
   description: "Academic website of Julian Ashwin"
-  favicon: assets/favicon.ico
   navbar:
     left:
       - href: index.qmd
