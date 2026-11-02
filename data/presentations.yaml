@@ -4,6 +4,12 @@
 
 # ── 2026 ──────────────────────────────────────────────────────────────────────
 
+- title: "Using AI for Qualitative Research (invited, online)"
+  type: "invited"
+  venue: "Institute of Development Studies"
+  location: "Online"
+  date: "2026-06"
+
 - title: "ASSA Annual Meeting"
   type: "conference"
   venue: "Allied Social Sciences Associations"
@@ -30,8 +36,8 @@
   location: ""
   date: "2025-07"
 
-- title: "OECD Presentation"
-  type: "invited"
+- title: "OECD Economics Department Seminar"
+  type: "seminar"
   venue: "OECD"
   location: "Paris, France"
   date: "2025-06"
@@ -91,12 +97,6 @@
   venue: "London Business School"
   location: "London, UK"
   date: "2024-06"
-
-- title: "OECD Working Party No. 3 Lunch Presentation"
-  type: "invited"
-  venue: "OECD"
-  location: "Paris, France"
-  date: "2024-05"
 
 # ── 2023 ──────────────────────────────────────────────────────────────────────
 
