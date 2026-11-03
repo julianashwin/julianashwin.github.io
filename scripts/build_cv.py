@@ -73,8 +73,9 @@ SEMI = "#[;] "
 
 
 def with_period(s: str) -> str:
-    """Append a period unless the text already ends in sentence punctuation."""
-    return s if s.rstrip().endswith((".", "!", "?")) else s + "."
+    """Append a period unless the text already ends in sentence punctuation
+    (also when it is wrapped in markup, e.g. '#strong[Ashwin, J.]')."""
+    return s if s.rstrip().rstrip("]").endswith((".", "!", "?")) else s + "."
 
 
 def section(title) -> str:

@@ -36,12 +36,6 @@
   location: ""
   date: "2025-07"
 
-- title: "OECD Economics Department Seminar"
-  type: "seminar"
-  venue: "OECD"
-  location: "Paris, France"
-  date: "2025-06"
-
 - title: "European Economic Association Annual Congress"
   type: "conference"
   venue: "EEA"
@@ -54,13 +48,13 @@
   location: "UK"
   date: "2025-04"
 
-- title: "European Central Bank Seminar"
-  type: "seminar"
-  venue: "European Central Bank"
-  location: "Frankfurt, Germany"
-  date: "2025-05"
-
 # ── 2024 ──────────────────────────────────────────────────────────────────────
+
+- title: "OECD Economics Department Seminar"
+  type: "seminar"
+  venue: "OECD"
+  location: "Paris, France"
+  date: "2024-09"
 
 - title: "ECB AI in Economics Seminar"
   type: "seminar"
@@ -144,7 +138,7 @@
   location: "Heidelberg, Germany"
   date: "2022-10"
 
-- title: "CIFAR Boundaries, Membranes and Barriers Fall Meeting"
+- title: "CIFAR Boundaries, Membership & Belonging Fall Meeting"
   type: "conference"
   venue: "CIFAR BMB"
   location: "Berkeley, CA, USA"
